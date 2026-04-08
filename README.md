@@ -211,3 +211,18 @@ Astro Baseline is intentionally boring.
 That’s the point.
 
 If you never think about this starter again once your project starts, it did its job.
+
+
+
+## Building
+
+### Getting academic to work
+```sh
+uv venv
+uv pip install academic
+```
+
+### To develop
+```
+astro dev
+```

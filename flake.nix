@@ -19,6 +19,7 @@
             nodejs
             pnpm
             nodePackages_latest.vercel
+	    uv
           ];
 
           shellHook = ''
