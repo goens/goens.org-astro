@@ -1,0 +1,3 @@
+- Highlight: rgb(252, 235, 232) #FCEBE8 — a very soft, barely-there blush.
+- Boxes: rgb(246, 175, 161) #F6AFA1 — a warm, muted salmon/terracotta.
+- Background: rgb(255, 250, 249) #FFFAF9 — an almost-white with the faintest rosy warmth.
