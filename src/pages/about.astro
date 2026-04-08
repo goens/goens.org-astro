@@ -2,16 +2,19 @@
 import Base from "../layouts/Base.astro";
 import { site } from "../content/site";
 
-const title = `About — ${site.name}`;
+const title = `About me`;
 ---
 
 <Base
   title={title}
-  description={`About ${site.name}`}
+  description={`About me`}
   canonicalPath="/about"
 >
   <article class="prose">
-    <h1>About</h1>
+    <h1>About me</h1>
+
+    <img src="">
+
 
     <p class="lead">
       {site.name} is a minimal Astro baseline focused on structure, clarity, and

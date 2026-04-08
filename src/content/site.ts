@@ -15,9 +15,10 @@ export type SiteConfig = {
     email?: string;
     url?: string;
     socials?: {
-      x?: string;
       github?: string;
       linkedin?: string;
+      scholar?: string;
+      dblp?: string;
     };
   };
   nav: SiteNavItem[];
@@ -29,20 +30,21 @@ export type SiteConfig = {
 };
 
 export const site: SiteConfig = {
-  name: "Astro Baseline",
+  name: "Andrés Goens' Personal Website",
   tagline: "A boring, production-ready Astro starter.",
   description:
     "Astro Baseline is a minimal HTML-first starter with senior defaults: SEO, JSON-LD, a11y basics, and clean structure.",
-  url: import.meta.env.SITE_URL ?? "https://example.com",
+  url: import.meta.env.SITE_URL ?? "https://goens.org",
   locale: "en",
   author: {
-    name: "Your Name",
-    email: "hello@example.com",
-    url: "https://example.com",
+    name: "Andrés Goens",
+    email: "andres@goens.org",
+    url: "https://goens.org",
     socials: {
-      x: "https://x.com/yourhandle",
-      github: "https://github.com/yourhandle",
-      linkedin: "https://www.linkedin.com/in/yourhandle/"
+      github: "https://github.com/goens/",
+      linkedin: "https://www.linkedin.com/in/andres-goens/",
+      scholar: "https://scholar.google.com/citations?user=vjVhbJoAAAAJ",
+      dblp: "https://www.linkedin.com/in/andres-goens/"
     }
   },
   nav: [
@@ -54,6 +56,6 @@ export const site: SiteConfig = {
   seo: {
     ogImage: "/images/og/og-default.jpg",
     robots: "index,follow",
-    themeColor: "#fbfbf9"
+    themeColor: "#F6AFA1"
   }
 };
