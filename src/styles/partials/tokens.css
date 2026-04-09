@@ -1,9 +1,12 @@
 :root{
-  --bg: #fbfbf9;
+  --bg: #FFFAF9;
+  --highlight: #FCEBE8;
+  --accent: #F6AFA1;
+  --accent-dark: #c26a57;
   --fg: #1a1a1a;
-  --muted: #5b5b5b;
-  --link: #0b3d91;
-  --border: rgba(0,0,0,.12);
+  --muted: #6b5b58;
+  --link: #8b3a2a;
+  --border: rgba(180,100,80,.15);
   --maxw: 900px;
   --space-1: 8px;
   --space-2: 12px;
