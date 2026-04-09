@@ -214,15 +214,53 @@ If you never think about this starter again once your project starts, it did its
 
 
 
-## Building
+## Development
 
-### Getting academic to work
 ```sh
-uv venv
-uv pip install academic
+nix develop            # enter dev shell (Node 24, pnpm 9, Vercel CLI, uv)
+astro dev              # start dev server
+astro build            # production build → /dist
+astro check            # TypeScript type checking
 ```
 
-### To develop
+Copy `.env.example` to `.env` and set `SITE_URL=https://goens.org` before building.
+
+## Publications
+
+Publications are sourced from `publications.bib` and synced to `src/content/publications/{key}.json`.
+
+### Syncing from BibTeX
+
+```sh
+uv run scripts/sync_publications.py
 ```
-astro dev
+
+Run this whenever `publications.bib` changes. The script:
+- Writes bib-derived fields (title, authors, DOI, year, venue, type, bibtex) from the `.bib` file
+- **Preserves** any manually-added fields in existing JSON files (pdf, artifact, repository, etc.)
+
+### Adding links to a publication
+
+Each `src/content/publications/{key}.json` accepts four optional fields you add by hand:
+
+| Field        | Type   | Description                                       |
+|--------------|--------|---------------------------------------------------|
+| `pdf`        | URL    | Direct link to the PDF                            |
+| `artifact`   | DOI    | DOI of an artifact (e.g. Zenodo, ACM DL artifact) |
+| `repository` | URL    | Link to source code repository                    |
+| `bibtex`     | string | Raw BibTeX (auto-populated by the sync script)    |
+
+Open the relevant JSON and add the fields directly:
+
+```json
+{
+  "key": "schneider_pldi25",
+  "title": "...",
+  "doi": "10.1145/3729326",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3729326",
+  "artifact": "10.5281/zenodo.12345678",
+  "repository": "https://github.com/you/repo"
+}
 ```
+
+Re-running the sync script will not overwrite these fields. The publication detail page renders an icon button for each field that is present.
