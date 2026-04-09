@@ -28,5 +28,6 @@
   "url": "https://doi.org/10.1145/3476991",
   "year": 2021,
   "venue": "TECS'21",
-  "type": "article"
+  "type": "article",
+  "bibtex": "@article{khasanov_tecs21,\n  author       = {Robert Khasanov and\n                  Julian Robledo and\n                  Christian Menard and\n                  Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Domain-specific Hybrid Mapping for Energy-efficient Baseband Processing\n                  in Wireless Networks},\n  journal      = {{ACM} Trans. Embed. Comput. Syst.},\n  volume       = {20},\n  number       = {5s},\n  pages        = {60:1--60:26},\n  year         = {2021},\n  url          = {https://doi.org/10.1145/3476991},\n  doi          = {10.1145/3476991},\n  timestamp    = {Thu, 01 May 2025 01:00:00 +0200},\n}"
 }

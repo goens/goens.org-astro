@@ -32,5 +32,6 @@
   "url": "https://doi.org/10.1145/3078659.3078663",
   "year": 2017,
   "venue": "SCOPES'17",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{goens_scopes17,\n  author       = {Andr{\\'{e}}s Goens and\n                  Robert Khasanov and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n and\n                  Marcus H{\\\"{a}}hnel and\n                  Till Smejkal and\n                  Hermann H{\\\"{a}}rtig},\n  editor       = {Sander Stuijk},\n  title        = {TETRiS: a Multi-Application Run-Time System for Predictable Execution\n                  of Static Mappings},\n  booktitle    = {Proceedings of the 20th International Workshop on Software and Compilers\n                  for Embedded Systems, {SCOPES} 2017, Sankt Goar, Germany, June 12-13,\n                  2017},\n  pages        = {11--20},\n  publisher    = {{ACM}},\n  year         = {2017},\n  url          = {https://doi.org/10.1145/3078659.3078663},\n  doi          = {10.1145/3078659.3078663},\n  timestamp    = {Tue, 05 Aug 2025 01:00:00 +0200},\n}"
 }

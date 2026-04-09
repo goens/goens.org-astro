@@ -17,6 +17,10 @@ const publications = defineCollection({
     year: z.number(),
     venue: z.string(),
     type: z.string(),
+    bibtex: z.string().optional(),
+    pdf: z.string().optional(),
+    artifact: z.string().optional(),
+    repository: z.string().optional(),
   }),
 });
 

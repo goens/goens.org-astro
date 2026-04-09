@@ -28,5 +28,6 @@
   "url": "https://doi.org/10.1109/ISCA59077.2024.00023",
   "year": 2024,
   "venue": "ISCA'24",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{li_isca24,\n  author       = {Weihang Li and\n                  Andr{\\'{e}}s Goens and\n                  Nicolai Oswald and\n                  Vijay Nagarajan and\n                  Daniel J. Sorin},\n  title        = {Determining the Minimum Number of Virtual Networks for Different Coherence\n                  Protocols},\n  booktitle    = {51st {ACM/IEEE} Annual International Symposium on Computer Architecture,\n                  {ISCA} 2024, Buenos Aires, Argentina, June 29 - July 3, 2024},\n  pages        = {182--197},\n  publisher    = {{IEEE}},\n  year         = {2024},\n  url          = {https://doi.org/10.1109/ISCA59077.2024.00023},\n  doi          = {10.1109/ISCA59077.2024.00023},\n  timestamp    = {Fri, 16 Aug 2024 20:48:15 +0200},\n}"
 }

@@ -36,5 +36,6 @@
   "url": "https://doi.org/10.7873/DATE.2014.337",
   "year": 2014,
   "venue": "DATE'14",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{odendahl_date14,\n  author       = {Maximilian Odendahl and\n                  Andr{\\'{e}}s Goens and\n                  Rainer Leupers and\n                  Gerd Ascheid and\n                  Benjamin Ries and\n                  Berthold V{\\\"{o}}cking and\n                  Tomas Henriksson},\n  editor       = {Gerhard P. Fettweis and\n                  Wolfgang Nebel},\n  title        = {Optimized buffer allocation in multicore platforms},\n  booktitle    = {Design, Automation {\\&} Test in Europe Conference {\\&} Exhibition,\n                  {DATE} 2014, Dresden, Germany, March 24-28, 2014},\n  pages        = {1--6},\n  publisher    = {European Design and Automation Association},\n  year         = {2014},\n  url          = {https://doi.org/10.7873/DATE.2014.337},\n  doi          = {10.7873/DATE.2014.337},\n  timestamp    = {Wed, 16 Oct 2019 14:14:53 +0200},\n}"
 }

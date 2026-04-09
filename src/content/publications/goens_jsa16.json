@@ -24,5 +24,6 @@
   "url": "https://doi.org/10.1016/j.sysarc.2016.05.002",
   "year": 2016,
   "venue": "JSA'16",
-  "type": "article"
+  "type": "article",
+  "bibtex": "@article{goens_jsa16,\n  author       = {Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n and\n                  Maximilian Odendahl and\n                  Rainer Leupers},\n  title        = {An optimal allocation of memory buffers for complex multicore platforms},\n  journal      = {J. Syst. Archit.},\n  volume       = {66-67},\n  pages        = {69--83},\n  year         = {2016},\n  url          = {https://doi.org/10.1016/j.sysarc.2016.05.002},\n  doi          = {10.1016/J.SYSARC.2016.05.002},\n  timestamp    = {Mon, 24 Feb 2020 00:00:00 +0100},\n}"
 }

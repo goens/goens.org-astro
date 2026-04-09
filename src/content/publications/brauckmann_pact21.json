@@ -20,5 +20,6 @@
   "url": "https://doi.org/10.1109/PACT52795.2021.00009",
   "year": 2021,
   "venue": "PACT'21",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{brauckmann_pact21,\n  author       = {Alexander Brauckmann and\n                  Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Jaejin Lee and\n                  Albert Cohen},\n  title        = {PolyGym: Polyhedral Optimizations as an Environment for Reinforcement\n                  Learning},\n  booktitle    = {30th International Conference on Parallel Architectures and Compilation\n                  Techniques, {PACT} 2021, Atlanta, GA, USA, September 26-29, 2021},\n  pages        = {17--29},\n  publisher    = {{IEEE}},\n  year         = {2021},\n  url          = {https://doi.org/10.1109/PACT52795.2021.00009},\n  doi          = {10.1109/PACT52795.2021.00009},\n  timestamp    = {Mon, 06 Nov 2023 15:27:23 +0100},\n}"
 }

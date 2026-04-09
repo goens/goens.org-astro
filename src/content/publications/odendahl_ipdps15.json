@@ -28,5 +28,6 @@
   "url": "https://doi.org/10.1109/IPDPSW.2015.67",
   "year": 2015,
   "venue": "IPDPS'15",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{odendahl_ipdps15,\n  author       = {Maximilian Odendahl and\n                  Andr{\\'{e}}s Goens and\n                  Rainer Leupers and\n                  Gerd Ascheid and\n                  Tomas Henriksson},\n  title        = {Buffer Allocation Based On-Chip Memory Optimization for Many-Core\n                  Platforms},\n  booktitle    = {2015 {IEEE} International Parallel and Distributed Processing Symposium\n                  Workshop, {IPDPS} 2015, Hyderabad, India, May 25-29, 2015},\n  pages        = {1119--1124},\n  publisher    = {{IEEE} Computer Society},\n  year         = {2015},\n  url          = {https://doi.org/10.1109/IPDPSW.2015.67},\n  doi          = {10.1109/IPDPSW.2015.67},\n  timestamp    = {Fri, 24 Mar 2023 00:00:00 +0100},\n}"
 }

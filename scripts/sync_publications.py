@@ -14,6 +14,11 @@ Each publication file is only written if its content has changed (or it doesn't
 exist yet), so git diffs reflect actual changes and unchanged entries are left
 untouched.
 
+Bib-derived fields (key, title, authors, abstract, doi, url, year, venue, type,
+bibtex) are always overwritten from the .bib file.  Manually-added fields
+(pdf, artifact, repository, and anything else not in that set) are preserved
+across runs.
+
 Author files are always regenerated from the full publication set, but extra
 fields you add manually (e.g. "bio", "homepage") are preserved via merge.
 """
@@ -35,6 +40,9 @@ ROOT = Path(__file__).parent.parent
 BIB_FILE = ROOT / "publications.bib"
 PUB_DIR = ROOT / "src" / "content" / "publications"
 AUTH_DIR = ROOT / "src" / "content" / "authors"
+
+# Fields written by this script (everything else in a pub JSON is preserved).
+BIB_FIELDS = {"key", "title", "authors", "abstract", "doi", "url", "year", "venue", "type", "bibtex"}
 
 
 # ---------------------------------------------------------------------------
@@ -72,7 +80,6 @@ def parse_author_list(raw_authors: str) -> list[dict]:
     bibtexparser's split_authors customization returns 'Last, First' format;
     we convert back to 'First Last'.
     """
-    # split_authors expects a record dict; simulate one
     record = {"author": raw_authors}
     split_authors(record)
     result = []
@@ -88,7 +95,31 @@ def parse_author_list(raw_authors: str) -> list[dict]:
     return result
 
 
-def entry_to_pub(entry: dict) -> dict:
+def extract_raw_entries(bib_text: str) -> dict[str, str]:
+    """
+    Extract raw BibTeX entry strings from the bib file, keyed by entry key.
+    Uses brace counting so nested braces are handled correctly.
+    """
+    entries = {}
+    for m in re.finditer(r"@\w+\s*\{", bib_text):
+        start = m.start()
+        brace_pos = bib_text.index("{", start)
+        depth = 1
+        pos = brace_pos + 1
+        while pos < len(bib_text) and depth > 0:
+            if bib_text[pos] == "{":
+                depth += 1
+            elif bib_text[pos] == "}":
+                depth -= 1
+            pos += 1
+        raw = bib_text[start:pos].strip()
+        key_match = re.match(r"@\w+\s*\{\s*(\S+?)\s*,", raw)
+        if key_match:
+            entries[key_match.group(1)] = raw
+    return entries
+
+
+def entry_to_pub(entry: dict, raw_bibtex: str) -> dict:
     """Convert a bibtexparser entry dict to our publication JSON schema."""
     key = entry["ID"]
     raw_authors = entry.get("author", "")
@@ -104,6 +135,7 @@ def entry_to_pub(entry: dict) -> dict:
         "year": int(entry.get("year", 0)),
         "venue": venue_from_key(key),
         "type": entry.get("ENTRYTYPE", "misc"),
+        "bibtex": raw_bibtex,
     }
 
 
@@ -123,6 +155,23 @@ def write_if_changed(path: Path, data: dict) -> str:
     return "created"
 
 
+def merge_pub(path: Path, new_data: dict) -> str:
+    """
+    Write pub JSON, overwriting bib-managed fields but preserving any manually-
+    added fields (pdf, artifact, repository, etc.) that are not in BIB_FIELDS.
+    Returns 'created', 'updated', or 'unchanged'.
+    """
+    if path.exists():
+        existing = json.loads(path.read_text(encoding="utf-8"))
+        # Start from existing to keep manual fields, then overwrite bib fields.
+        merged = {**existing}
+        for field in BIB_FIELDS:
+            if field in new_data:
+                merged[field] = new_data[field]
+        return write_if_changed(path, merged)
+    return write_if_changed(path, new_data)
+
+
 def merge_author(path: Path, new_data: dict) -> str:
     """
     Write author JSON, preserving any extra fields already in the file
@@ -131,7 +180,6 @@ def merge_author(path: Path, new_data: dict) -> str:
     """
     if path.exists():
         existing = json.loads(path.read_text(encoding="utf-8"))
-        # Preserve extra keys, but always overwrite name + papers
         merged = {**existing, **new_data}
         return write_if_changed(path, merged)
     return write_if_changed(path, new_data)
@@ -148,6 +196,9 @@ def main() -> None:
     PUB_DIR.mkdir(parents=True, exist_ok=True)
     AUTH_DIR.mkdir(parents=True, exist_ok=True)
 
+    bib_text = BIB_FILE.read_text(encoding="utf-8")
+    raw_entries = extract_raw_entries(bib_text)
+
     # Parse BibTeX with Unicode conversion
     parser = BibTexParser(common_strings=True)
     parser.customization = convert_to_unicode
@@ -158,9 +209,11 @@ def main() -> None:
     author_papers: dict[str, dict] = {}  # slug → {name, papers: [key, ...]}
 
     for entry in db.entries:
-        pub = entry_to_pub(entry)
+        key = entry["ID"]
+        raw_bibtex = raw_entries.get(key, "")
+        pub = entry_to_pub(entry, raw_bibtex)
         path = PUB_DIR / f"{pub['key']}.json"
-        status = write_if_changed(path, pub)
+        status = merge_pub(path, pub)
         counts[status] += 1
         if status != "unchanged":
             print(f"  [{status}] {pub['key']}")

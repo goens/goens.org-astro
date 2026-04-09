@@ -20,5 +20,6 @@
   "url": "https://doi.org/10.1145/3183767.3183790",
   "year": 2018,
   "venue": "PARMA'18",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{khasanov_parma18,\n  author       = {Robert Khasanov and\n                  Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Implicit Data-Parallelism in Kahn Process Networks: Bridging the MacQueen\n                  Gap},\n  booktitle    = {Proceedings of the 9th Workshop on Parallel Programming and RunTime\n                  Management Techniques for Manycore Architectures and 7th Workshop\n                  on Design Tools and Architectures for Multicore Embedded Computing\n                  Platforms, PARMA-DITAM@HiPEAC 2018, Manchester, United Kingdom, January\n                  23-23, 2018},\n  pages        = {20--25},\n  publisher    = {{ACM}},\n  year         = {2018},\n  url          = {https://doi.org/10.1145/3183767.3183790},\n  doi          = {10.1145/3183767.3183790},\n  timestamp    = {Wed, 25 Sep 2019 01:00:00 +0200},\n}"
 }

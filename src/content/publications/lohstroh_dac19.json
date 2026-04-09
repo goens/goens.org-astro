@@ -36,5 +36,6 @@
   "url": "https://doi.org/10.1145/3316781.3323469",
   "year": 2019,
   "venue": "DAC'19",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{lohstroh_dac19,\n  author       = {Marten Lohstroh and\n                  Martin Schoeberl and\n                  Andr{\\'{e}}s Goens and\n                  Armin Wasicek and\n                  Christopher D. Gill and\n                  Marjan Sirjani and\n                  Edward A. Lee},\n  title        = {Actors Revisited for Time-Critical Systems},\n  booktitle    = {Proceedings of the 56th Annual Design Automation Conference 2019,\n                  {DAC} 2019, Las Vegas, NV, USA, June 02-06, 2019},\n  pages        = {152},\n  publisher    = {{ACM}},\n  year         = {2019},\n  url          = {https://doi.org/10.1145/3316781.3323469},\n  doi          = {10.1145/3316781.3323469},\n  timestamp    = {Sun, 19 Jan 2025 00:00:00 +0100},\n}"
 }

@@ -28,5 +28,6 @@
   "url": "https://doi.org/10.4230/LIPIcs.ITP.2024.9",
   "year": 2024,
   "venue": "ITP'24",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{bhat_itp24,\n  author       = {Siddharth Bhat and\n                  Alex C. Keizer and\n                  Chris Hughes and\n                  Andr{\\'{e}}s Goens and\n                  Tobias Grosser},\n  editor       = {Yves Bertot and\n                  Temur Kutsia and\n                  Michael Norrish},\n  title        = {Verifying Peephole Rewriting in {SSA} Compiler IRs},\n  booktitle    = {15th International Conference on Interactive Theorem Proving, {ITP}\n                  2024, Tbilisi, Georgia, September 9-14, 2024},\n  series       = {LIPIcs},\n  volume       = {309},\n  pages        = {9:1--9:20},\n  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\\\"{u}}r Informatik},\n  year         = {2024},\n  url          = {https://doi.org/10.4230/LIPIcs.ITP.2024.9},\n  doi          = {10.4230/LIPICS.ITP.2024.9},\n  timestamp    = {Fri, 21 Nov 2025 23:44:11 +0100},\n}"
 }

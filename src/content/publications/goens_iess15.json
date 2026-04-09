@@ -16,5 +16,6 @@
   "url": "https://doi.org/10.1007/978-3-319-90023-0_10",
   "year": 2015,
   "venue": "IESS'15",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{goens_iess15,\n  author       = {Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Marcelo G{\\\"{o}}tz and\n                  Gunar Schirner and\n                  Marco Aur{\\'{e}}lio Wehrmeister and\n                  Mohammad Abdullah Al Faruque and\n                  Achim Rettberg},\n  title        = {Analysis of Process Traces for Mapping Dynamic {KPN} Applications\n                  to MPSoCs},\n  booktitle    = {System Level Design from {HW/SW} to Memory for Embedded Systems -\n                  5th {IFIP} {TC} 10 International Embedded Systems Symposium, {IESS}\n                  2015, Foz do Igua{\\c{c}}u, Brazil, November 3-6, 2015, Proceedings},\n  series       = {{IFIP} Advances in Information and Communication Technology},\n  volume       = {523},\n  pages        = {116--127},\n  publisher    = {Springer},\n  year         = {2015},\n  url          = {https://doi.org/10.1007/978-3-319-90023-0\\_10},\n  doi          = {10.1007/978-3-319-90023-0\\_10},\n  timestamp    = {Thu, 23 Jun 2022 19:56:26 +0200},\n}"
 }

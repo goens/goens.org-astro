@@ -20,5 +20,6 @@
   "url": "https://doi.org/10.1109/FDL50818.2020.9232946",
   "year": 2020,
   "venue": "FDL'20",
-  "type": "inproceedings"
+  "type": "inproceedings",
+  "bibtex": "@inproceedings{brauckmann_fdl20,\n  author       = {Alexander Brauckmann and\n                  Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {ComPy-Learn: {A} toolbox for exploring machine learning representations\n                  for compilers},\n  booktitle    = {Forum for Specification and Design Languages, {FDL} 2020, Kiel, Germany,\n                  September 15-17, 2020},\n  pages        = {1--4},\n  publisher    = {{IEEE}},\n  year         = {2020},\n  url          = {https://doi.org/10.1109/FDL50818.2020.9232946},\n  doi          = {10.1109/FDL50818.2020.9232946},\n  timestamp    = {Tue, 10 Nov 2020 11:14:51 +0100},\n}"
 }
