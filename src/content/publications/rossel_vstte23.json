@@ -1,0 +1,32 @@
+{
+  "key": "rossel_vstte23",
+  "title": "Provable Determinism for Software in Cyber-Physical Systems",
+  "authors": [
+    {
+      "name": "Marcus Rossel",
+      "slug": "marcus-rossel"
+    },
+    {
+      "name": "Shaokai Lin",
+      "slug": "shaokai-lin"
+    },
+    {
+      "name": "Marten Lohstroh",
+      "slug": "marten-lohstroh"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1007/978-3-031-66064-1_6",
+  "url": "https://doi.org/10.1007/978-3-031-66064-1_6",
+  "year": 2023,
+  "venue": "VSTTE'23",
+  "type": "inproceedings"
+}

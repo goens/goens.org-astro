@@ -1,0 +1,10 @@
+{
+  "slug": "tobias-grosser",
+  "name": "Tobias Grosser",
+  "papers": [
+    "koehler_popl24",
+    "zhang_pact24",
+    "bhat_itp24",
+    "fernandez_mir_cicm24"
+  ]
+}

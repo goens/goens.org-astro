@@ -1,0 +1,36 @@
+{
+  "key": "goens_scopes17",
+  "title": "TETRiS: a Multi-Application Run-Time System for Predictable Execution of Static Mappings",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Robert Khasanov",
+      "slug": "robert-khasanov"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Marcus Hähnel",
+      "slug": "marcus-hahnel"
+    },
+    {
+      "name": "Till Smejkal",
+      "slug": "till-smejkal"
+    },
+    {
+      "name": "Hermann Härtig",
+      "slug": "hermann-hartig"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3078659.3078663",
+  "url": "https://doi.org/10.1145/3078659.3078663",
+  "year": 2017,
+  "venue": "SCOPES'17",
+  "type": "inproceedings"
+}

@@ -1,0 +1,40 @@
+{
+  "key": "lohstroh_cyphy19",
+  "title": "Reactors: A Deterministic Model for Composable Reactive Systems",
+  "authors": [
+    {
+      "name": "Marten Lohstroh",
+      "slug": "marten-lohstroh"
+    },
+    {
+      "name": "Íñigo Íncer Romeo",
+      "slug": "inigo-incer-romeo"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Patricia Derler",
+      "slug": "patricia-derler"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Edward A. Lee",
+      "slug": "edward-a-lee"
+    },
+    {
+      "name": "Alberto L. Sangiovanni-Vincentelli",
+      "slug": "alberto-l-sangiovanni-vincentelli"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1007/978-3-030-41131-2_4",
+  "url": "https://doi.org/10.1007/978-3-030-41131-2_4",
+  "year": 2019,
+  "venue": "CYPHY'19",
+  "type": "inproceedings"
+}

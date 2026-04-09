@@ -1,0 +1,32 @@
+{
+  "key": "odendahl_ipdps15",
+  "title": "Buffer Allocation Based On-Chip Memory Optimization for Many-Core Platforms",
+  "authors": [
+    {
+      "name": "Maximilian Odendahl",
+      "slug": "maximilian-odendahl"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Rainer Leupers",
+      "slug": "rainer-leupers"
+    },
+    {
+      "name": "Gerd Ascheid",
+      "slug": "gerd-ascheid"
+    },
+    {
+      "name": "Tomas Henriksson",
+      "slug": "tomas-henriksson"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/IPDPSW.2015.67",
+  "url": "https://doi.org/10.1109/IPDPSW.2015.67",
+  "year": 2015,
+  "venue": "IPDPS'15",
+  "type": "inproceedings"
+}

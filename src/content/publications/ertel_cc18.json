@@ -1,0 +1,28 @@
+{
+  "key": "ertel_cc18",
+  "title": "Compiling for concise code and efficient I/O",
+  "authors": [
+    {
+      "name": "Sebastian Ertel",
+      "slug": "sebastian-ertel"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Justus Adam",
+      "slug": "justus-adam"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3178372.3179505",
+  "url": "https://doi.org/10.1145/3178372.3179505",
+  "year": 2018,
+  "venue": "CC'18",
+  "type": "inproceedings"
+}

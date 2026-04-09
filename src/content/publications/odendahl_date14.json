@@ -1,0 +1,40 @@
+{
+  "key": "odendahl_date14",
+  "title": "Optimized buffer allocation in multicore platforms",
+  "authors": [
+    {
+      "name": "Maximilian Odendahl",
+      "slug": "maximilian-odendahl"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Rainer Leupers",
+      "slug": "rainer-leupers"
+    },
+    {
+      "name": "Gerd Ascheid",
+      "slug": "gerd-ascheid"
+    },
+    {
+      "name": "Benjamin Ries",
+      "slug": "benjamin-ries"
+    },
+    {
+      "name": "Berthold Vöcking",
+      "slug": "berthold-vocking"
+    },
+    {
+      "name": "Tomas Henriksson",
+      "slug": "tomas-henriksson"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.7873/DATE.2014.337",
+  "url": "https://doi.org/10.7873/DATE.2014.337",
+  "year": 2014,
+  "venue": "DATE'14",
+  "type": "inproceedings"
+}

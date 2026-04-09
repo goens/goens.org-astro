@@ -1,0 +1,32 @@
+{
+  "key": "ertel_haskell19",
+  "title": "STCLang: state thread composition as a foundation for monadic dataflow parallelism",
+  "authors": [
+    {
+      "name": "Sebastian Ertel",
+      "slug": "sebastian-ertel"
+    },
+    {
+      "name": "Justus Adam",
+      "slug": "justus-adam"
+    },
+    {
+      "name": "Norman A. Rink",
+      "slug": "norman-a-rink"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3331545.3342600",
+  "url": "https://doi.org/10.1145/3331545.3342600",
+  "year": 2019,
+  "venue": "HASKELL'19",
+  "type": "inproceedings"
+}

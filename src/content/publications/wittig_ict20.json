@@ -1,0 +1,36 @@
+{
+  "key": "wittig_ict20",
+  "title": "Modem Design in the Era of 5G and Beyond: The Need for a Formal Approach",
+  "authors": [
+    {
+      "name": "Robert Wittig",
+      "slug": "robert-wittig"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Emil Matús",
+      "slug": "emil-matus"
+    },
+    {
+      "name": "Gerhard P. Fettweis",
+      "slug": "gerhard-p-fettweis"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/ICT49546.2020.9239539",
+  "url": "https://doi.org/10.1109/ICT49546.2020.9239539",
+  "year": 2020,
+  "venue": "ICT'20",
+  "type": "inproceedings"
+}

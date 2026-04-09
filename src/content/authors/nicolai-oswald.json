@@ -1,0 +1,9 @@
+{
+  "slug": "nicolai-oswald",
+  "name": "Nicolai Oswald",
+  "papers": [
+    "zhang_pact24",
+    "li_isca24",
+    "goens_pldi23"
+  ]
+}

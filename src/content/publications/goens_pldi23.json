@@ -1,0 +1,36 @@
+{
+  "key": "goens_pldi23",
+  "title": "Compound Memory Models",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Soham Chakraborty",
+      "slug": "soham-chakraborty"
+    },
+    {
+      "name": "Susmit Sarkar",
+      "slug": "susmit-sarkar"
+    },
+    {
+      "name": "Sukarn Agarwal",
+      "slug": "sukarn-agarwal"
+    },
+    {
+      "name": "Nicolai Oswald",
+      "slug": "nicolai-oswald"
+    },
+    {
+      "name": "Vijay Nagarajan",
+      "slug": "vijay-nagarajan"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3591267",
+  "url": "https://doi.org/10.1145/3591267",
+  "year": 2023,
+  "venue": "PLDI'23",
+  "type": "article"
+}

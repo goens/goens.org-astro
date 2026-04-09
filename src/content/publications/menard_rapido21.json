@@ -1,0 +1,40 @@
+{
+  "key": "menard_rapido21",
+  "title": "Mocasin - Rapid Prototyping of Rapid Prototyping Tools: A Framework for Exploring New Approaches in Mapping Software to Heterogeneous Multi-cores",
+  "authors": [
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Gerald Hempel",
+      "slug": "gerald-hempel"
+    },
+    {
+      "name": "Robert Khasanov",
+      "slug": "robert-khasanov"
+    },
+    {
+      "name": "Julian Robledo",
+      "slug": "julian-robledo"
+    },
+    {
+      "name": "Felix Teweleitt",
+      "slug": "felix-teweleitt"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3444950.3447285",
+  "url": "https://doi.org/10.1145/3444950.3447285",
+  "year": 2021,
+  "venue": "RAPIDO'21",
+  "type": "inproceedings"
+}

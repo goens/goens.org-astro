@@ -1,0 +1,32 @@
+{
+  "key": "bhat_itp24",
+  "title": "Verifying Peephole Rewriting in SSA Compiler IRs",
+  "authors": [
+    {
+      "name": "Siddharth Bhat",
+      "slug": "siddharth-bhat"
+    },
+    {
+      "name": "Alex C. Keizer",
+      "slug": "alex-c-keizer"
+    },
+    {
+      "name": "Chris Hughes",
+      "slug": "chris-hughes"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Tobias Grosser",
+      "slug": "tobias-grosser"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.4230/LIPICS.ITP.2024.9",
+  "url": "https://doi.org/10.4230/LIPIcs.ITP.2024.9",
+  "year": 2024,
+  "venue": "ITP'24",
+  "type": "inproceedings"
+}

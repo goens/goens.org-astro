@@ -1,0 +1,28 @@
+{
+  "key": "khan_date20",
+  "title": "Generalized Data Placement Strategies for Racetrack Memories",
+  "authors": [
+    {
+      "name": "Asif Ali Khan",
+      "slug": "asif-ali-khan"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Fazal Hameed",
+      "slug": "fazal-hameed"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.23919/DATE48585.2020.9116245",
+  "url": "https://doi.org/10.23919/DATE48585.2020.9116245",
+  "year": 2020,
+  "venue": "DATE'20",
+  "type": "inproceedings"
+}

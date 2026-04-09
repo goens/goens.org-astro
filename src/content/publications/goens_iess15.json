@@ -1,0 +1,20 @@
+{
+  "key": "goens_iess15",
+  "title": "Analysis of Process Traces for Mapping Dynamic KPN Applications to MPSoCs",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1007/978-3-319-90023-0_10",
+  "url": "https://doi.org/10.1007/978-3-319-90023-0_10",
+  "year": 2015,
+  "venue": "IESS'15",
+  "type": "inproceedings"
+}

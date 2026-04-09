@@ -1,0 +1,24 @@
+{
+  "key": "menard_norcas16",
+  "title": "High-level NoC model for MPSoC compilers",
+  "authors": [
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/NORCHIP.2016.7792876",
+  "url": "https://doi.org/10.1109/NORCHIP.2016.7792876",
+  "year": 2016,
+  "venue": "NORCAS'16",
+  "type": "inproceedings"
+}

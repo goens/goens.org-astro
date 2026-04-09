@@ -1,0 +1,9 @@
+{
+  "slug": "thomas-koehler",
+  "name": "Thomas Koehler",
+  "papers": [
+    "rossel_popl26",
+    "schneider_pldi25",
+    "koehler_popl24"
+  ]
+}

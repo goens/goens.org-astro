@@ -1,0 +1,36 @@
+{
+  "key": "koehler_popl24",
+  "title": "Guided Equality Saturation",
+  "authors": [
+    {
+      "name": "Thomas Koehler",
+      "slug": "thomas-koehler"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Siddharth Bhat",
+      "slug": "siddharth-bhat"
+    },
+    {
+      "name": "Tobias Grosser",
+      "slug": "tobias-grosser"
+    },
+    {
+      "name": "Phil Trinder",
+      "slug": "phil-trinder"
+    },
+    {
+      "name": "Michel Steuwer",
+      "slug": "michel-steuwer"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3632900",
+  "url": "https://doi.org/10.1145/3632900",
+  "year": 2024,
+  "venue": "POPL'24",
+  "type": "article"
+}

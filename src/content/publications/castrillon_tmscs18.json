@@ -1,0 +1,144 @@
+{
+  "key": "castrillon_tmscs18",
+  "title": "A Hardware/Software Stack for Heterogeneous Systems",
+  "authors": [
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Matthias Lieber",
+      "slug": "matthias-lieber"
+    },
+    {
+      "name": "Sascha Klüppelholz",
+      "slug": "sascha-kluppelholz"
+    },
+    {
+      "name": "Marcus Völp",
+      "slug": "marcus-volp"
+    },
+    {
+      "name": "Nils Asmussen",
+      "slug": "nils-asmussen"
+    },
+    {
+      "name": "Uwe Aßmann",
+      "slug": "uwe-a-mann"
+    },
+    {
+      "name": "Franz Baader",
+      "slug": "franz-baader"
+    },
+    {
+      "name": "Christel Baier",
+      "slug": "christel-baier"
+    },
+    {
+      "name": "Gerhard P. Fettweis",
+      "slug": "gerhard-p-fettweis"
+    },
+    {
+      "name": "Jochen Fröhlich",
+      "slug": "jochen-frohlich"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Sebastian Haas",
+      "slug": "sebastian-haas"
+    },
+    {
+      "name": "Dirk Habich",
+      "slug": "dirk-habich"
+    },
+    {
+      "name": "Hermann Härtig",
+      "slug": "hermann-hartig"
+    },
+    {
+      "name": "Mattis Hasler",
+      "slug": "mattis-hasler"
+    },
+    {
+      "name": "Immo Huismann",
+      "slug": "immo-huismann"
+    },
+    {
+      "name": "Tomas Karnagel",
+      "slug": "tomas-karnagel"
+    },
+    {
+      "name": "Sven Karol",
+      "slug": "sven-karol"
+    },
+    {
+      "name": "Akash Kumar",
+      "slug": "akash-kumar"
+    },
+    {
+      "name": "Wolfgang Lehner",
+      "slug": "wolfgang-lehner"
+    },
+    {
+      "name": "Linda Leuschner",
+      "slug": "linda-leuschner"
+    },
+    {
+      "name": "Siqi Ling",
+      "slug": "siqi-ling"
+    },
+    {
+      "name": "Steffen Märcker",
+      "slug": "steffen-marcker"
+    },
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Johannes Mey",
+      "slug": "johannes-mey"
+    },
+    {
+      "name": "Wolfgang E. Nagel",
+      "slug": "wolfgang-e-nagel"
+    },
+    {
+      "name": "Benedikt Nöthen",
+      "slug": "benedikt-nothen"
+    },
+    {
+      "name": "Rafael Peñaloza",
+      "slug": "rafael-penaloza"
+    },
+    {
+      "name": "Michael Raitza",
+      "slug": "michael-raitza"
+    },
+    {
+      "name": "Jörg Stiller",
+      "slug": "jorg-stiller"
+    },
+    {
+      "name": "Annett Ungethüm",
+      "slug": "annett-ungethum"
+    },
+    {
+      "name": "Axel Voigt",
+      "slug": "axel-voigt"
+    },
+    {
+      "name": "Sascha Wunderlich",
+      "slug": "sascha-wunderlich"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/TMSCS.2017.2771750",
+  "url": "https://doi.org/10.1109/TMSCS.2017.2771750",
+  "year": 2018,
+  "venue": "TMSCS'18",
+  "type": "article"
+}

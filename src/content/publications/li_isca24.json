@@ -1,0 +1,32 @@
+{
+  "key": "li_isca24",
+  "title": "Determining the Minimum Number of Virtual Networks for Different Coherence Protocols",
+  "authors": [
+    {
+      "name": "Weihang Li",
+      "slug": "weihang-li"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Nicolai Oswald",
+      "slug": "nicolai-oswald"
+    },
+    {
+      "name": "Vijay Nagarajan",
+      "slug": "vijay-nagarajan"
+    },
+    {
+      "name": "Daniel J. Sorin",
+      "slug": "daniel-j-sorin"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/ISCA59077.2024.00023",
+  "url": "https://doi.org/10.1109/ISCA59077.2024.00023",
+  "year": 2024,
+  "venue": "ISCA'24",
+  "type": "inproceedings"
+}

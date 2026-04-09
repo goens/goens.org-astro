@@ -1,0 +1,36 @@
+{
+  "key": "schneider_pldi25",
+  "title": "Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs",
+  "authors": [
+    {
+      "name": "Rudi Schneider",
+      "slug": "rudi-schneider"
+    },
+    {
+      "name": "Marcus Rossel",
+      "slug": "marcus-rossel"
+    },
+    {
+      "name": "Amir Shaikhha",
+      "slug": "amir-shaikhha"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Thomas Koehler",
+      "slug": "thomas-koehler"
+    },
+    {
+      "name": "Michel Steuwer",
+      "slug": "michel-steuwer"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3729326",
+  "url": "https://doi.org/10.1145/3729326",
+  "year": 2025,
+  "venue": "PLDI'25",
+  "type": "article"
+}

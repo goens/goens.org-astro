@@ -1,0 +1,148 @@
+{
+  "key": "bolan_arxiv25",
+  "title": "The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale",
+  "authors": [
+    {
+      "name": "Matthew Bolan",
+      "slug": "matthew-bolan"
+    },
+    {
+      "name": "Joachim Breitner",
+      "slug": "joachim-breitner"
+    },
+    {
+      "name": "Jose Brox",
+      "slug": "jose-brox"
+    },
+    {
+      "name": "Nicholas Carlini",
+      "slug": "nicholas-carlini"
+    },
+    {
+      "name": "Mario Carneiro",
+      "slug": "mario-carneiro"
+    },
+    {
+      "name": "Floris van Doorn",
+      "slug": "floris-van-doorn"
+    },
+    {
+      "name": "Martin Dvorak",
+      "slug": "martin-dvorak"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Aaron Hill",
+      "slug": "aaron-hill"
+    },
+    {
+      "name": "Harald Husum",
+      "slug": "harald-husum"
+    },
+    {
+      "name": "Hernán Ibarra Mejia",
+      "slug": "hernan-ibarra-mejia"
+    },
+    {
+      "name": "Zoltan A. Kocsis",
+      "slug": "zoltan-a-kocsis"
+    },
+    {
+      "name": "Bruno Le Floch",
+      "slug": "bruno-le-floch"
+    },
+    {
+      "name": "Amir Livne Bar-on",
+      "slug": "amir-livne-bar-on"
+    },
+    {
+      "name": "Lorenzo Luccioli",
+      "slug": "lorenzo-luccioli"
+    },
+    {
+      "name": "Douglas McNeil",
+      "slug": "douglas-mcneil"
+    },
+    {
+      "name": "Alex Meiburg",
+      "slug": "alex-meiburg"
+    },
+    {
+      "name": "Pietro Monticone",
+      "slug": "pietro-monticone"
+    },
+    {
+      "name": "Pace P. Nielsen",
+      "slug": "pace-p-nielsen"
+    },
+    {
+      "name": "Emmanuel Osalotioman Osazuwa",
+      "slug": "emmanuel-osalotioman-osazuwa"
+    },
+    {
+      "name": "Giovanni Paolini",
+      "slug": "giovanni-paolini"
+    },
+    {
+      "name": "Marco Petracci",
+      "slug": "marco-petracci"
+    },
+    {
+      "name": "Bernhard Reinke",
+      "slug": "bernhard-reinke"
+    },
+    {
+      "name": "David Renshaw",
+      "slug": "david-renshaw"
+    },
+    {
+      "name": "Marcus Rossel",
+      "slug": "marcus-rossel"
+    },
+    {
+      "name": "Cody Roux",
+      "slug": "cody-roux"
+    },
+    {
+      "name": "Jérémy Scanvic",
+      "slug": "jeremy-scanvic"
+    },
+    {
+      "name": "Shreyas Srinivas",
+      "slug": "shreyas-srinivas"
+    },
+    {
+      "name": "Anand Rao Tadipatri",
+      "slug": "anand-rao-tadipatri"
+    },
+    {
+      "name": "Terence Tao",
+      "slug": "terence-tao"
+    },
+    {
+      "name": "Vlad Tsyrklevich",
+      "slug": "vlad-tsyrklevich"
+    },
+    {
+      "name": "Fernando Vaquerizo-Villar",
+      "slug": "fernando-vaquerizo-villar"
+    },
+    {
+      "name": "Daniel Weber",
+      "slug": "daniel-weber"
+    },
+    {
+      "name": "Fan Zheng",
+      "slug": "fan-zheng"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.48550/ARXIV.2512.07087",
+  "url": "https://doi.org/10.48550/arXiv.2512.07087",
+  "year": 2025,
+  "venue": "ARXIV'25",
+  "type": "article"
+}

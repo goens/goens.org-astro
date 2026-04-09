@@ -1,0 +1,32 @@
+{
+  "slug": "jeronimo-castrillon",
+  "name": "Jerónimo Castrillón",
+  "papers": [
+    "rossel_vstte23",
+    "goens_tcad22",
+    "khasanov_tecs21",
+    "brauckmann_pact21",
+    "menard_rapido21",
+    "goens_samos21",
+    "brauckmann_cc20",
+    "menard_date20",
+    "khan_date20",
+    "brauckmann_fdl20",
+    "wittig_ict20",
+    "lohstroh_cyphy19",
+    "ertel_haskell19",
+    "goens_mapl19",
+    "goens_samos19",
+    "castrillon_tmscs18",
+    "ertel_cc18",
+    "khasanov_parma18",
+    "goens_mcsoc18",
+    "goens_taco17",
+    "goens_scopes17",
+    "hempel_scopes17",
+    "goens_jsa16",
+    "goens_mcsoc16",
+    "menard_norcas16",
+    "goens_iess15"
+  ]
+}

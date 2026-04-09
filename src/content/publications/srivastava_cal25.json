@@ -1,0 +1,32 @@
+{
+  "key": "srivastava_cal25",
+  "title": "Efficient Deadlock Avoidance by Considering Stalling, Message Dependencies, and Topology",
+  "authors": [
+    {
+      "name": "Sanya Srivastava",
+      "slug": "sanya-srivastava"
+    },
+    {
+      "name": "Fletch Rydell",
+      "slug": "fletch-rydell"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Vijay Nagarajan",
+      "slug": "vijay-nagarajan"
+    },
+    {
+      "name": "Daniel J. Sorin",
+      "slug": "daniel-j-sorin"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/LCA.2025.3618627",
+  "url": "https://doi.org/10.1109/LCA.2025.3618627",
+  "year": 2025,
+  "venue": "CAL'25",
+  "type": "article"
+}

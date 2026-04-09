@@ -1,0 +1,32 @@
+{
+  "key": "goens_mcsoc16",
+  "title": "Why Comparing System-Level MPSoC Mapping Approaches is Difficult: A Case Study",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Robert Khasanov",
+      "slug": "robert-khasanov"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Simon Polstra",
+      "slug": "simon-polstra"
+    },
+    {
+      "name": "Andy D. Pimentel",
+      "slug": "andy-d-pimentel"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/MCSOC.2016.48",
+  "url": "https://doi.org/10.1109/MCSoC.2016.48",
+  "year": 2016,
+  "venue": "MCSOC'16",
+  "type": "inproceedings"
+}

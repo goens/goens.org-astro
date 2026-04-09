@@ -1,0 +1,24 @@
+{
+  "key": "goens_samos19",
+  "title": "On Compact Mappings for Multicore Systems",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1007/978-3-030-27562-4_23",
+  "url": "https://doi.org/10.1007/978-3-030-27562-4_23",
+  "year": 2019,
+  "venue": "SAMOS'19",
+  "type": "inproceedings"
+}

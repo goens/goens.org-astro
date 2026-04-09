@@ -1,0 +1,24 @@
+{
+  "key": "khasanov_parma18",
+  "title": "Implicit Data-Parallelism in Kahn Process Networks: Bridging the MacQueen Gap",
+  "authors": [
+    {
+      "name": "Robert Khasanov",
+      "slug": "robert-khasanov"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3183767.3183790",
+  "url": "https://doi.org/10.1145/3183767.3183790",
+  "year": 2018,
+  "venue": "PARMA'18",
+  "type": "inproceedings"
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "michel-steuwer",
+  "name": "Michel Steuwer",
+  "papers": [
+    "rossel_popl26",
+    "schneider_pldi25",
+    "koehler_popl24"
+  ]
+}

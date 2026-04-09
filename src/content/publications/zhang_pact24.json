@@ -1,0 +1,36 @@
+{
+  "key": "zhang_pact24",
+  "title": "PipeGen: Automated Transformation of a Single-Core Pipeline into a Multicore Pipeline for a Given Memory Consistency Model",
+  "authors": [
+    {
+      "name": "An Qi Zhang",
+      "slug": "an-qi-zhang"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Nicolai Oswald",
+      "slug": "nicolai-oswald"
+    },
+    {
+      "name": "Tobias Grosser",
+      "slug": "tobias-grosser"
+    },
+    {
+      "name": "Daniel J. Sorin",
+      "slug": "daniel-j-sorin"
+    },
+    {
+      "name": "Vijay Nagarajan",
+      "slug": "vijay-nagarajan"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3656019.3676889",
+  "url": "https://doi.org/10.1145/3656019.3676889",
+  "year": 2024,
+  "venue": "PACT'24",
+  "type": "inproceedings"
+}

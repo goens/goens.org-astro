@@ -1,0 +1,40 @@
+{
+  "key": "lohstroh_dac19",
+  "title": "Actors Revisited for Time-Critical Systems",
+  "authors": [
+    {
+      "name": "Marten Lohstroh",
+      "slug": "marten-lohstroh"
+    },
+    {
+      "name": "Martin Schoeberl",
+      "slug": "martin-schoeberl"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Armin Wasicek",
+      "slug": "armin-wasicek"
+    },
+    {
+      "name": "Christopher D. Gill",
+      "slug": "christopher-d-gill"
+    },
+    {
+      "name": "Marjan Sirjani",
+      "slug": "marjan-sirjani"
+    },
+    {
+      "name": "Edward A. Lee",
+      "slug": "edward-a-lee"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3316781.3323469",
+  "url": "https://doi.org/10.1145/3316781.3323469",
+  "year": 2019,
+  "venue": "DAC'19",
+  "type": "inproceedings"
+}

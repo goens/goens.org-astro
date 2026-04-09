@@ -1,0 +1,32 @@
+{
+  "key": "hempel_scopes17",
+  "title": "Robust Mapping of Process Networks to Many-Core Systems using Bio-Inspired Design Centering",
+  "authors": [
+    {
+      "name": "Gerald Hempel",
+      "slug": "gerald-hempel"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Josefine Asmus",
+      "slug": "josefine-asmus"
+    },
+    {
+      "name": "Ivo F. Sbalzarini",
+      "slug": "ivo-f-sbalzarini"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3078659.3078667",
+  "url": "https://doi.org/10.1145/3078659.3078667",
+  "year": 2017,
+  "venue": "SCOPES'17",
+  "type": "inproceedings"
+}

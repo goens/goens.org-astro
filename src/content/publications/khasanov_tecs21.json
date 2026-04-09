@@ -1,0 +1,32 @@
+{
+  "key": "khasanov_tecs21",
+  "title": "Domain-specific Hybrid Mapping for Energy-efficient Baseband Processing in Wireless Networks",
+  "authors": [
+    {
+      "name": "Robert Khasanov",
+      "slug": "robert-khasanov"
+    },
+    {
+      "name": "Julian Robledo",
+      "slug": "julian-robledo"
+    },
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3476991",
+  "url": "https://doi.org/10.1145/3476991",
+  "year": 2021,
+  "venue": "TECS'21",
+  "type": "article"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "goens_taco17",
+  "title": "Symmetry in Software Synthesis",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Sergio Siccha",
+      "slug": "sergio-siccha"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3095747",
+  "url": "https://doi.org/10.1145/3095747",
+  "year": 2017,
+  "venue": "TACO'17",
+  "type": "article"
+}

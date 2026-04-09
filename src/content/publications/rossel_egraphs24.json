@@ -1,0 +1,20 @@
+{
+  "key": "rossel_egraphs24",
+  "title": "Bridging Syntax and Semantics of Lean Expressions in E-Graphs",
+  "authors": [
+    {
+      "name": "Marcus Rossel",
+      "slug": "marcus-rossel"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.48550/ARXIV.2405.10188",
+  "url": "https://doi.org/10.48550/arXiv.2405.10188",
+  "year": 2024,
+  "venue": "EGRAPHS'24",
+  "type": "inproceedings"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "fernandez_mir_cicm24",
+  "title": "Transforming Optimization Problems into Disciplined Convex Programming Form",
+  "authors": [
+    {
+      "name": "Ramon Fernández Mir",
+      "slug": "ramon-fernandez-mir"
+    },
+    {
+      "name": "Paul B. Jackson",
+      "slug": "paul-b-jackson"
+    },
+    {
+      "name": "Siddharth Bhat",
+      "slug": "siddharth-bhat"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Tobias Grosser",
+      "slug": "tobias-grosser"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1007/978-3-031-66997-2_11",
+  "url": "https://doi.org/10.1007/978-3-031-66997-2_11",
+  "year": 2024,
+  "venue": "CICM'24",
+  "type": "inproceedings"
+}

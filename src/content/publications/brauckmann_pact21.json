@@ -1,0 +1,24 @@
+{
+  "key": "brauckmann_pact21",
+  "title": "PolyGym: Polyhedral Optimizations as an Environment for Reinforcement Learning",
+  "authors": [
+    {
+      "name": "Alexander Brauckmann",
+      "slug": "alexander-brauckmann"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/PACT52795.2021.00009",
+  "url": "https://doi.org/10.1109/PACT52795.2021.00009",
+  "year": 2021,
+  "venue": "PACT'21",
+  "type": "inproceedings"
+}

@@ -1,0 +1,28 @@
+{
+  "key": "brauckmann_cc20",
+  "title": "Compiler-based graph representations for deep learning models of code",
+  "authors": [
+    {
+      "name": "Alexander Brauckmann",
+      "slug": "alexander-brauckmann"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Sebastian Ertel",
+      "slug": "sebastian-ertel"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1145/3377555.3377894",
+  "url": "https://doi.org/10.1145/3377555.3377894",
+  "year": 2020,
+  "venue": "CC'20",
+  "type": "inproceedings"
+}

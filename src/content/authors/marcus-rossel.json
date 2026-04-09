@@ -1,0 +1,11 @@
+{
+  "slug": "marcus-rossel",
+  "name": "Marcus Rossel",
+  "papers": [
+    "rossel_popl26",
+    "schneider_pldi25",
+    "bolan_arxiv25",
+    "rossel_egraphs24",
+    "rossel_vstte23"
+  ]
+}

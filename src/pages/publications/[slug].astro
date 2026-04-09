@@ -1,0 +1,157 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const publications = await getCollection("publications");
+  return publications.map((pub) => ({
+    params: { slug: pub.id },
+    props: { pub: pub.data },
+  }));
+}
+
+const { pub } = Astro.props;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  headline: pub.title,
+  author: pub.authors.map((a) => ({ "@type": "Person", name: a.name })),
+  datePublished: String(pub.year),
+  ...(pub.doi && { identifier: { "@type": "PropertyValue", propertyID: "doi", value: pub.doi } }),
+};
+---
+
+<Base
+  title={`${pub.title} — Andrés Goens`}
+  description={pub.abstract || `${pub.venue} ${pub.year}`}
+  canonicalPath={`/publications/${pub.key}`}
+  jsonLd={jsonLd}
+>
+  <article class="pub-detail prose">
+    <p class="pub-meta">
+      <span class="pub-venue">{pub.venue}</span>
+      <span class="pub-year">{pub.year}</span>
+    </p>
+
+    <h1>{pub.title}</h1>
+
+    <p class="pub-authors">
+      {
+        pub.authors.map((a, i) => (
+          <>
+            <a href={`/authors/${a.slug}`}>{a.name}</a>
+            {i < pub.authors.length - 1 ? ", " : ""}
+          </>
+        ))
+      }
+    </p>
+
+    {
+      pub.doi && (
+        <p class="pub-doi">
+          <a href={`https://doi.org/${pub.doi}`} rel="noopener noreferrer" target="_blank">
+            doi:{pub.doi}
+          </a>
+        </p>
+      )
+    }
+
+    {
+      pub.abstract && (
+        <section class="pub-abstract">
+          <h2>Abstract</h2>
+          <p>{pub.abstract}</p>
+        </section>
+      )
+    }
+
+    <p class="pub-back">
+      <a href="/publications">← All publications</a>
+    </p>
+  </article>
+</Base>
+
+<style>
+  .pub-detail {
+    max-width: 70ch;
+  }
+
+  .pub-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-2);
+  }
+
+  .pub-venue {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--accent-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    background: var(--highlight);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .pub-year {
+    font-size: 0.9em;
+    color: var(--muted);
+  }
+
+  .pub-detail h1 {
+    margin-bottom: var(--space-3);
+  }
+
+  .pub-authors {
+    font-size: 0.95em;
+    color: var(--muted);
+    margin-bottom: var(--space-2);
+  }
+
+  .pub-authors a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .pub-authors a:hover {
+    color: var(--link);
+    text-decoration: underline;
+  }
+
+  .pub-doi {
+    font-size: 0.9em;
+    font-family: var(--font-mono);
+    margin-bottom: var(--space-4);
+  }
+
+  .pub-doi a {
+    color: var(--link);
+    text-decoration: none;
+  }
+
+  .pub-doi a:hover {
+    text-decoration: underline;
+  }
+
+  .pub-abstract {
+    border-top: 1px solid var(--border);
+    padding-top: var(--space-4);
+    margin-top: var(--space-4);
+  }
+
+  .pub-back {
+    margin-top: var(--space-5);
+    font-size: 0.9em;
+  }
+
+  .pub-back a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .pub-back a:hover {
+    color: var(--link);
+  }
+</style>

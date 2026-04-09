@@ -1,0 +1,20 @@
+{
+  "key": "goens_samos21",
+  "title": "Embeddings of Task Mappings to Multicore Systems",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1007/978-3-031-04580-6_11",
+  "url": "https://doi.org/10.1007/978-3-031-04580-6_11",
+  "year": 2021,
+  "venue": "SAMOS'21",
+  "type": "inproceedings"
+}

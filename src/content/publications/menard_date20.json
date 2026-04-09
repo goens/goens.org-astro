@@ -1,0 +1,28 @@
+{
+  "key": "menard_date20",
+  "title": "Achieving Determinism in Adaptive AUTOSAR",
+  "authors": [
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Marten Lohstroh",
+      "slug": "marten-lohstroh"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.23919/DATE48585.2020.9116430",
+  "url": "https://doi.org/10.23919/DATE48585.2020.9116430",
+  "year": 2020,
+  "venue": "DATE'20",
+  "type": "inproceedings"
+}

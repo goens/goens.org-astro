@@ -1,0 +1,24 @@
+{
+  "key": "goens_mcsoc18",
+  "title": "On the Representation of Mappings to Multicores",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1109/MCSOC2018.2018.00039",
+  "url": "https://doi.org/10.1109/MCSoC2018.2018.00039",
+  "year": 2018,
+  "venue": "MCSOC'18",
+  "type": "inproceedings"
+}

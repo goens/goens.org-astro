@@ -1,0 +1,28 @@
+{
+  "key": "goens_jsa16",
+  "title": "An optimal allocation of memory buffers for complex multicore platforms",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Jerónimo Castrillón",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Maximilian Odendahl",
+      "slug": "maximilian-odendahl"
+    },
+    {
+      "name": "Rainer Leupers",
+      "slug": "rainer-leupers"
+    }
+  ],
+  "abstract": "",
+  "doi": "10.1016/J.SYSARC.2016.05.002",
+  "url": "https://doi.org/10.1016/j.sysarc.2016.05.002",
+  "year": 2016,
+  "venue": "JSA'16",
+  "type": "article"
+}
