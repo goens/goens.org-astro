@@ -14,24 +14,29 @@ const title = `Contact — ${site.name}`;
   <article class="prose">
     <h1>Contact</h1>
 
-    <p class="lead">
-      This site does not include a contact form by default.
+    <p>Office hours: on demand. You can find me in Room 2.4.17 at <a href="https://www.tu-darmstadt.de/universitaet/campus/stadtmitte_3/index.de.jsp">S04|14</a>, Mornewegstraße 26-32, 64293 Darmstadt. 
     </p>
+
+    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=8.633835017681124%2C49.87159298328811%2C8.63616853952408%2C49.872754649809&amp;layer=mapnik&amp;marker=49.87217382004131%2C8.6350017786026" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=49.872174&amp;mlon=8.635002#map=19/49.872174/8.635002">View Larger Map</a></small>
 
     <p>
-      If you need to get in touch, you can reach us by email:
+      If you need to get in touch, you can reach me by email:
     </p>
 
-    {site.author.email && (
       <p>
-        <a href={`mailto:${site.author.email}`}>
-          {site.author.email}
+        <a href={`mailto:andres.goens@tu-darmstadt.de`}>
+          andres.goens@tu-darmstadt.de
         </a>
       </p>
-    )}
-
     <p>
-      This keeps the baseline simple and avoids unnecessary JavaScript.
+      Or for personal matters:
     </p>
+
+      <p>
+        <a href={`mailto:andres@goens.org`}>
+          andres@goens.org
+        </a>
+      </p>
+
   </article>
 </Base>
