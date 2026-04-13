@@ -1,11 +1,208 @@
 ---
 import Base from "../layouts/Base.astro";
+import { committees, type CommitteeEntry } from "../content/community";
+
+function sortedByRecent(entries: CommitteeEntry[]) {
+  return [...entries].sort((a, b) => {
+    const maxYear = (e: CommitteeEntry) =>
+      Math.max(...e.years.map((y) => parseInt(y.year)));
+    return maxYear(b) - maxYear(a);
+  });
+}
+
+const pcEntries = sortedByRecent(committees.filter((c) => c.category === "pc"));
+const aecEntries = sortedByRecent(committees.filter((c) => c.category === "aec"));
 ---
 
-<Base title="Community — Andrés Goens" description="Community involvement, service, and outreach." canonicalPath="/community">
+<Base
+  title="Community — Andrés Goens"
+  description="Service, outreach, and involvement in the broader research community."
+  canonicalPath="/community"
+>
   <div class="prose">
     <h1>Community</h1>
-    <p class="lead">Service, outreach, and involvement in the broader research community.</p>
-    <p>Community activities will be listed here.</p>
+    <p class="lead">Service and involvement in the broader research community.</p>
   </div>
+
+  <section class="committee-section">
+    <h2 class="section-heading">Program Committees</h2>
+    <ul class="committee-list">
+      {pcEntries.map((entry) => (
+        <li class="committee-entry">
+          <div class="committee-venue">
+            {entry.venueShort
+              ? <abbr title={entry.venue}>{entry.venueShort}</abbr>
+              : entry.venue}
+            {entry.location && <span class="committee-location">{entry.location}</span>}
+          </div>
+          {entry.venueShort && (
+            <div class="committee-venue-full">{entry.venue}</div>
+          )}
+          <ul class="year-list">
+            {entry.years.map((y) => (
+              <li class="year-entry">
+                {y.links[0]
+                  ? <a class="year-badge" href={y.links[0].url} target="_blank" rel="noopener noreferrer">
+                      {y.year}
+                      {y.note && <span class="year-note">{y.note}</span>}
+                    </a>
+                  : <span class="year-badge">
+                      {y.year}
+                      {y.note && <span class="year-note">{y.note}</span>}
+                    </span>
+                }
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="committee-section">
+    <h2 class="section-heading">Artifact Evaluation</h2>
+    <ul class="committee-list">
+      {aecEntries.map((entry) => (
+        <li class="committee-entry">
+          <div class="committee-venue">
+            {entry.venueShort
+              ? <abbr title={entry.venue}>{entry.venueShort}</abbr>
+              : entry.venue}
+            {entry.role && <span class="committee-role-tag">{entry.role}</span>}
+            {entry.location && <span class="committee-location">{entry.location}</span>}
+          </div>
+          {entry.venueShort && (
+            <div class="committee-venue-full">{entry.venue}</div>
+          )}
+          <ul class="year-list">
+            {entry.years.map((y) => (
+              <li class="year-entry">
+                {y.links[0]
+                  ? <a class="year-badge" href={y.links[0].url} target="_blank" rel="noopener noreferrer">
+                      {y.year}
+                      {y.note && <span class="year-note">{y.note}</span>}
+                    </a>
+                  : <span class="year-badge">
+                      {y.year}
+                      {y.note && <span class="year-note">{y.note}</span>}
+                    </span>
+                }
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  </section>
 </Base>
+
+<style>
+  .committee-section {
+    margin-top: var(--space-6);
+  }
+
+  .section-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-dark);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+
+  .committee-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .committee-entry {
+    border-left: 3px solid var(--accent);
+    padding-left: var(--space-3);
+  }
+
+  .committee-venue {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-2);
+    font-weight: 600;
+    color: var(--fg);
+  }
+
+  .committee-venue abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+  }
+
+  .committee-role-tag {
+    font-size: 0.78em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    padding: 1px 6px;
+  }
+
+  .committee-location {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--muted);
+  }
+
+  .committee-venue-full {
+    font-size: 0.82em;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  .year-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-2) 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .year-entry {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+  }
+
+  .year-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--highlight);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--accent-dark);
+    white-space: nowrap;
+  }
+
+  .year-note {
+    font-weight: 400;
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+
+  a.year-badge {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a.year-badge:hover {
+    background: var(--accent);
+    color: var(--fg);
+  }
+</style>

@@ -33,7 +33,7 @@ export const site: SiteConfig = {
   name: "PRS Group @ TU Darmstadt - Andrés Goens",
   tagline: "Programming Reliable Systems @ TU Darmstadt",
   description:
-    "Website of the Programming Reliable Systems (PRS) Group at TU Darmstadt, led by Andrés Goens.",
+    "Website of the Programming Reliable Systems (PRS) Group at TU Darmstadt, led by <a href=\"/authors/andres-goens\">Andrés Goens.</a>",
   url: import.meta.env.SITE_URL ?? "https://goens.org",
   locale: "en",
   author: {
