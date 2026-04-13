@@ -43,5 +43,8 @@
     "goens_iess15",
     "odendahl_ipdps15",
     "odendahl_date14"
-  ]
+  ],
+  "bio": "Andrés Goens is Assistant Professor (W2-TT) at TU Darmstadt. Before that, he was an Assistant Professor (UD) at the <a href=\"https://www.uva.nl/\">University of Amsterdam</a>. Before that, he was a Research Associate at the University of Edinburgh and at the Barkhausen Institut. He received a Ph.D. (Dr.rer.nat.) degree (Hons.) in computer science from TU Dresden, Dresden, Germany, and an M.Sc. degree in mathematics in from RWTH Aachen University, Aachen, Germany.",
+  "picture" : "../../assets/images/authors/andres-goens.jpg",
+  "team" : "lead"
 }

@@ -1,5 +1,6 @@
 ---
-import { getCollection, getEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import Base from "../../layouts/Base.astro";
 
 export async function getStaticPaths() {
@@ -19,53 +20,147 @@ const papers = author.papers
   .map((key) => pubMap[key])
   .filter(Boolean)
   .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: author.name,
+  ...(author.homepage && { url: author.homepage }),
+};
 ---
 
 <Base
   title={`${author.name} — Andrés Goens`}
-  description={`Publications by ${author.name}`}
+  description={author.bio ?? `Publications by ${author.name}.`}
   canonicalPath={`/authors/${author.slug}`}
+  jsonLd={jsonLd}
 >
-  <div class="prose">
-    <h1>{author.name}</h1>
-    {author.bio && <p class="lead">{author.bio}</p>}
-    {author.homepage && (
-      <p>
-        <a href={author.homepage} rel="noopener noreferrer" target="_blank">
-          Homepage
-        </a>
-      </p>
-    )}
-    <p class="lead">{papers.length} publication{papers.length !== 1 ? "s" : ""}</p>
-  </div>
+  <article class="author-detail prose">
+    <div class="author-top">
+      {
+        author.picture && (
+          <Image
+            class="author-photo"
+            src={author.picture}
+            alt={author.name}
+            width={200}
+          />
+        )
+      }
+      <div class="author-header">
+        <h1>{author.name}</h1>
+        {
+          author.homepage && (
+            <a class="author-homepage" href={author.homepage} target="_blank" rel="noopener noreferrer">
+              {author.homepage.replace(/^https?:\/\//, "")}
+            </a>
+          )
+        }
+        {author.bio && <p class="author-bio" set:html={author.bio} />}
+      </div>
+    </div>
 
-  <ol class="pub-list" reversed>
-    {
-      papers.map((pub) => (
-        <li class="pub-item">
-          <span class="pub-venue">{pub.venue}</span>
-          <a class="pub-title" href={`/publications/${pub.key}`}>
-            {pub.title}
-          </a>
-          <p class="pub-authors">
-            {pub.authors.map((a, i) => (
-              <>
-                <a href={`/authors/${a.slug}`}>{a.name}</a>
-                {i < pub.authors.length - 1 ? ", " : ""}
-              </>
-            ))}
-          </p>
-        </li>
-      ))
+    {(papers.length > 0) && <section class="author-papers">
+      <h2>Publication{papers.length !== 1 ? "s" : ""}</h2>
+      <ol class="pub-list" reversed>
+        {
+          papers.map((pub) => (
+            <li class="pub-item">
+              <span class="pub-venue">{pub.venue}</span>
+              <a class="pub-title" href={`/publications/${pub.key}`}>
+                {pub.title}
+              </a>
+              <p class="pub-authors">
+                {pub.authors.map((a, i) => (
+                  <>
+                    {a.slug === author.slug ? (
+                      <strong>{a.name}</strong>
+                    ) : (
+                      <a href={`/authors/${a.slug}`}>{a.name}</a>
+                    )}
+                    {i < pub.authors.length - 1 ? ", " : ""}
+                  </>
+                ))}
+              </p>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
     }
-  </ol>
+
+    <p class="author-back">
+      <a href="/publications">← All publications</a>
+    </p>
+  </article>
 </Base>
 
 <style>
+  .author-detail {
+    max-width: 70ch;
+  }
+
+  .author-top {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+  }
+
+  @media (max-width: 600px) {
+    .author-top {
+      flex-direction: column;
+    }
+
+    .author-photo {
+      width: 100%;
+    }
+  }
+
+  .author-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .author-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    flex: 1;
+  }
+
+  .author-header h1 {
+    margin: 0;
+  }
+
+  .author-homepage {
+    font-size: 0.9em;
+    color: var(--link);
+    text-decoration: none;
+    word-break: break-all;
+  }
+
+  .author-homepage:hover {
+    text-decoration: underline;
+  }
+
+  .author-bio {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+  }
+
+  .author-papers h2 {
+    margin-bottom: var(--space-3);
+  }
+
   .pub-list {
     list-style: none;
     padding: 0;
-    margin: var(--space-4) 0 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     gap: var(--space-4);
@@ -113,5 +208,19 @@ const papers = author.papers
   .pub-authors a:hover {
     color: var(--link);
     text-decoration: underline;
+  }
+
+  .author-back {
+    margin-top: var(--space-5);
+    font-size: 0.9em;
+  }
+
+  .author-back a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .author-back a:hover {
+    color: var(--link);
   }
 </style>

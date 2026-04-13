@@ -2,33 +2,28 @@
 import Base from "../layouts/Base.astro";
 import { site } from "../content/site";
 
-const title = `About me`;
+const title = `About`;
 ---
 
 <Base
   title={title}
-  description={`About me`}
+  description={`About`}
   canonicalPath="/about"
 >
   <article class="prose">
-    <h1>About me</h1>
+    <h1>About us</h1>
 
     <img src="">
 
 
     <p class="lead">
-      {site.name} is a minimal Astro baseline focused on structure, clarity, and
-      build-time decisions.
+     This is the web page of the Programming Reliable Systems (PRS) group at <a href="https://www.tu-darmstadt.de/">TU Darmstadt</a>,
+     led by <a href="/authors/andres-goens"> Andrés Goens</a>.
     </p>
 
     <p>
-      This starter intentionally avoids UI kits, heavy abstractions, and runtime
-      JavaScript. It provides a solid foundation for websites that value
-      performance, accessibility, and long-term maintainability.
+      Our research vision
     </p>
 
-    <p>
-      You are expected to adapt it, extend it, and make it your own.
-    </p>
   </article>
 </Base>

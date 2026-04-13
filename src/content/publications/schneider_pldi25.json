@@ -33,5 +33,7 @@
   "year": 2025,
   "venue": "PLDI'25",
   "type": "article",
+  "pdf" : "/public/publications/pldi25.pdf",
+  "video" : "https://www.youtube.com/watch?v=rEPCHG4vSdQ",
   "bibtex": "@article{schneider_pldi25,\n  author       = {Rudi Schneider and\n                  Marcus Rossel and\n                  Amir Shaikhha and\n                  Andr{\\'{e}}s Goens and\n                  Thomas Koehler and\n                  Michel Steuwer},\n  title        = {Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs},\n  journal      = {Proc. {ACM} Program. Lang.},\n  volume       = {9},\n  number       = {{PLDI}},\n  pages        = {1888--1910},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3729326},\n  doi          = {10.1145/3729326},\n  timestamp    = {Thu, 11 Sep 2025 01:00:00 +0200},\n}"
 }

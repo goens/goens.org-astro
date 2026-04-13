@@ -1,11 +1,134 @@
 ---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import Base from "../layouts/Base.astro";
+
+const allAuthors = await getCollection("authors");
+const members = allAuthors.filter((a) => a.data.team);
+
+const roleOrder = ["lead", "admin", "postdoc", "phd", "student"] as const;
+const roleLabels: Record<string, string> = {
+  lead: "Group Lead",
+  admin: "Adimistrative Staff",
+  postdoc: "Postdoctoral Researchers",
+  phd: "Doctoral Researchers",
+  student: "Students",
+};
+
+const grouped = roleOrder
+  .map((role) => ({
+    role,
+    label: roleLabels[role],
+    members: members
+      .filter((a) => a.data.team === role)
+      .sort((a, b) => a.data.name.localeCompare(b.data.name)),
+  }))
+  .filter((g) => g.members.length > 0);
 ---
 
-<Base title="Team — Andrés Goens" description="Members of the research group." canonicalPath="/team">
+<Base title="Team — Andrés Goens" description="Members of the PRS Group at TU Darmstadt." canonicalPath="/team">
   <div class="prose">
     <h1>Team</h1>
-    <p class="lead">The people behind the research.</p>
-    <p>Team members will be listed here.</p>
   </div>
+
+  {grouped.map(({ label, members }) => (
+    <section class="team-section">
+      <h2 class="team-role">{label}</h2>
+      <ul class="team-grid">
+        {members.map((member) => (
+          <li class="team-member">
+            <a href={`/authors/${member.id}`} class="member-link">
+              {member.data.picture
+                ? <Image
+                    class="member-photo"
+                    src={member.data.picture}
+                    alt={member.data.name}
+                    width={160}
+                  />
+                : <div class="member-photo member-placeholder" aria-hidden="true" />
+              }
+              <span class="member-name">{member.data.name}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
 </Base>
+
+<style>
+  .team-section {
+    margin-bottom: var(--space-6);
+  }
+
+  .team-role {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-dark);
+    margin-bottom: var(--space-3);
+  }
+
+  .team-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+  }
+
+  .team-member {
+    width: 160px;
+  }
+
+  .member-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    text-decoration: none;
+    color: var(--fg);
+  }
+
+  .member-photo {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .member-placeholder {
+    background: var(--highlight);
+    border: 2px dashed var(--accent);
+  }
+
+  .member-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .member-link:hover .member-name {
+    color: var(--link);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .team-grid {
+      gap: var(--space-3);
+    }
+
+    .team-member {
+      width: calc(50% - var(--space-3) / 2);
+    }
+
+    .member-photo {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 5;
+    }
+  }
+</style>

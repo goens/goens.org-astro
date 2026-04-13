@@ -29,5 +29,6 @@
   "year": 2024,
   "venue": "CICM'24",
   "type": "inproceedings",
+  "pdf" : "/public/publications/cicm24.pdf",
   "bibtex": "@inproceedings{fernandez_mir_cicm24,\n  author       = {Ramon Fern{\\'{a}}ndez Mir and\n                  Paul B. Jackson and\n                  Siddharth Bhat and\n                  Andr{\\'{e}}s Goens and\n                  Tobias Grosser},\n  editor       = {Andrea Kohlhase and\n                  Laura Kov{\\'{a}}cs},\n  title        = {Transforming Optimization Problems into Disciplined Convex Programming\n                  Form},\n  booktitle    = {Intelligent Computer Mathematics - 17th International Conference,\n                  {CICM} 2024, Montr{\\'{e}}al, QC, Canada, August 5-9, 2024, Proceedings},\n  series       = {Lecture Notes in Computer Science},\n  volume       = {14960},\n  pages        = {183--202},\n  publisher    = {Springer},\n  year         = {2024},\n  url          = {https://doi.org/10.1007/978-3-031-66997-2\\_11},\n  doi          = {10.1007/978-3-031-66997-2\\_11},\n  timestamp    = {Fri, 20 Sep 2024 01:00:00 +0200},\n}"
 }

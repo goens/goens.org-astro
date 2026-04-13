@@ -33,5 +33,6 @@
   "year": 2024,
   "venue": "POPL'24",
   "type": "article",
+  "pdf" : "/public/publications/popl24.pdf",
   "bibtex": "@article{koehler_popl24,\n  author       = {Thomas Koehler and\n                  Andr{\\'{e}}s Goens and\n                  Siddharth Bhat and\n                  Tobias Grosser and\n                  Phil Trinder and\n                  Michel Steuwer},\n  title        = {Guided Equality Saturation},\n  journal      = {Proc. {ACM} Program. Lang.},\n  volume       = {8},\n  number       = {{POPL}},\n  pages        = {1727--1758},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3632900},\n  doi          = {10.1145/3632900},\n  timestamp    = {Thu, 29 Feb 2024 00:00:00 +0100},\n}"
 }

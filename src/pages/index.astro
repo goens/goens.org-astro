@@ -1,6 +1,23 @@
 ---
 import Base from "../layouts/Base.astro";
 import { site } from "../content/site";
+import { getCollection } from "astro:content";
+import PubLinks from "../components/PubLinks.astro";
+
+const allNews = await getCollection("news");
+const recentNews = allNews
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+
+const allPubs = await getCollection("publications");
+const recentPubs = allPubs
+  .map((p) => p.data)
+  .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title))
+  .slice(0, 3);
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" });
+}
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -20,22 +37,106 @@ const jsonLd = {
   <article class="prose">
     <h1>{site.tagline}</h1>
     <p class="lead">{site.description}</p>
-
-    <section class="block">
-      <h2>What this is</h2>
-      <p>
-        Astro Baseline is a boring starter: clear structure, SEO defaults, and minimal CSS.
-        No UI kit. No framework runtime.
-      </p>
-    </section>
-
-    <section class="block">
-      <h2>Next steps</h2>
-      <ul>
-        <li>Customize <code>src/content/site.ts</code></li>
-        <li>Adjust tokens in <code>src/styles/partials/tokens.css</code></li>
-        <li>Add your pages and components</li>
-      </ul>
-    </section>
   </article>
+
+  <section class="home-section">
+    <div class="home-section-header">
+      <h2>Recent News</h2>
+      <a href="/news">All news →</a>
+    </div>
+    <ol class="preview-list">
+      {recentNews.map((post) => (
+        <li class="preview-item">
+          <time class="preview-meta" datetime={post.data.date.toISOString()}>
+            {formatDate(post.data.date)}
+          </time>
+          <a class="preview-title" href={`/news/${post.id}`}>{post.data.title}</a>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-header">
+      <h2>Recent Publications</h2>
+      <a href="/publications/all">All publications →</a>
+    </div>
+    <ol class="preview-list">
+      {recentPubs.map((pub) => (
+        <li class="preview-item">
+          <span class="preview-meta">{pub.venue} {pub.year}</span>
+          <a class="preview-title" href={`/publications/${pub.key}`}>{pub.title}</a>
+          <PubLinks pub={pub} />
+        </li>
+      ))}
+    </ol>
+  </section>
 </Base>
+
+<style>
+  .home-section {
+    margin-top: var(--space-5);
+  }
+
+  .home-section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-3);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-3);
+  }
+
+  .home-section-header h2 {
+    margin: 0;
+  }
+
+  .home-section-header a {
+    font-size: 0.875em;
+    color: var(--muted);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .home-section-header a:hover {
+    color: var(--link);
+  }
+
+  .preview-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .preview-item {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border-left: 3px solid var(--accent);
+    padding-left: var(--space-3);
+  }
+
+  .preview-meta {
+    font-size: 0.78em;
+    font-weight: 600;
+    color: var(--accent-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .preview-title {
+    font-weight: 600;
+    color: var(--fg);
+    text-decoration: none;
+    line-height: 1.4;
+  }
+
+  .preview-title:hover {
+    color: var(--link);
+    text-decoration: underline;
+  }
+</style>

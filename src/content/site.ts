@@ -30,10 +30,10 @@ export type SiteConfig = {
 };
 
 export const site: SiteConfig = {
-  name: "Andrés Goens' Personal Website",
-  tagline: "A boring, production-ready Astro starter.",
+  name: "PRS Group @ TU Darmstadt - Andrés Goens",
+  tagline: "Programming Reliable Systems @ TU Darmstadt",
   description:
-    "Astro Baseline is a minimal HTML-first starter with senior defaults: SEO, JSON-LD, a11y basics, and clean structure.",
+    "Website of the Programming Reliable Systems (PRS) Group at TU Darmstadt, led by Andrés Goens.",
   url: import.meta.env.SITE_URL ?? "https://goens.org",
   locale: "en",
   author: {
