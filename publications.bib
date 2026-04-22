@@ -1,3 +1,14 @@
+@article{zhang_pldi26,
+  author       = {An Qi Zhang and
+                  Andr{\'{e}}s Goens and
+                  Daniel J. Sorin and
+                  Vijay Nagarajan},
+  title        = {A Formally Verified Foundation for Compositional Heterogeneous Coherence},
+  journal      = {Proc. {ACM} Program. Lang.},
+  number       = {{PLDI}},
+  year         = {2026},
+}
+
 @article{rossel_popl26,
   author       = {Marcus Rossel and
                   Rudi Schneider and
@@ -252,6 +263,23 @@
   timestamp    = {Sun, 06 Oct 2024 01:00:00 +0200},
 }
 
+@InBook{castrillon_hca23,
+author = {Jeronimo Castrillon and Karol Desnos and Andrés Goens and Christian Menard},
+booktitle = {Handbook of Computer Architecture},
+date = {2023-01},
+pages = {1--40},
+title = {Dataflow Models of Computation for Programming Heterogeneous Multicores},
+doi = {10.1007/978-981-15-6401-7_45-2},
+isbn = {978-981-15-6401-7},
+url = {https://doi.org/10.1007/978-981-15-6401-7_45-2},
+editor = {Anupam Chattopadhyay et al.},
+publisher = {Springer Nature Singapore},
+address = {Singapore},
+abstract = {The hardware complexity of modern integrated circuits keeps increasing at a steady pace. Heterogeneous Multi-Processor Systems-on-Chips (MPSoCs) integrate general-purpose processing elements, domain-specific processors, dedicated hardware accelerators, reconfigurable logic, as well as complex memory hierarchies and interconnect. While offering unprecedented computational power and energy efficiency, MPSoCs are notoriously difficult to program. This chapter presents Models of Computation (MoCs) as an appealing alternative to traditional programming methodologies to harness the full capacities of modern MPSoCs. By raising the level of abstraction, MoCs make it possible to specify complex systems with little knowledge of the target architecture. The properties of MoCs make it possible for tools to automatically generate efficient implementations for heterogeneous MPSoCs, relieving developers from time-consuming manual exploration. This chapter focuses on a specific MoC family called dataflow MoCs. Dataflow MoCs represent systems as graphs of computational entities and communication channels. This graph-based system specification enables intuitive description of parallelism and supports many analysis and optimization techniques for deriving safe and highly efficient implementations on MPSoCs.},
+month = jan,
+year = {2023},
+}
+
 @article{goens_tcad22,
   author       = {Andr{\'{e}}s Goens and
                   Timo Nicolai and
@@ -279,7 +307,7 @@
   timestamp    = {Sat, 17 Jul 2021 01:00:00 +0200},
 }
 
-@article{khasanov_tecs21,
+@article{khasanov_cases21,
   author       = {Robert Khasanov and
                   Julian Robledo and
                   Christian Menard and
@@ -294,6 +322,7 @@
   year         = {2021},
   url          = {https://doi.org/10.1145/3476991},
   doi          = {10.1145/3476991},
+  abstract = {Advancing telecommunication standards continuously push for larger bandwidths, lower latencies, and faster data rates. The receiver baseband unit not only has to deal with a huge number of users expecting connectivity but also with a high workload heterogeneity. As a consequence of the required flexibility, baseband processing has seen a trend towards software implementations in cloud Radio Access Networks (cRANs). The flexibility gained from software implementation comes at the price of impoverished energy efficiency. This paper addresses the trade-off between flexibility and efficiency by proposing a domain-specific hybrid mapping algorithm. Hybrid mapping is an established approach from the model-based design of embedded systems that allows us to retain flexibility while targeting heterogeneous hardware. Depending on the current workload, the runtime system selects the most energy-efficient mapping configuration without violating timing constraints. We leverage the structure of baseband processing, and refine the scheduling methodology, to enable efficient mapping of 100s of tasks at the millisecond granularity, improving upon state-of-the-art hybrid approaches. We validate our approach on an Odroid XU4 and virtual platforms with application-specific accelerators on an open-source prototype. On different LTE workloads, our hybrid approach shows significant improvements both at design time and at runtime. At design-time, mappings of similar quality to those obtained by state-of-the-art methods are generated around four orders of magnitude faster. At runtime, multi-application schedules are computed 37.7\% faster than the state-of-the-art without compromising on the quality.},
   timestamp    = {Thu, 01 May 2025 01:00:00 +0200},
 }
 
@@ -312,6 +341,7 @@
   year         = {2021},
   url          = {https://doi.org/10.1109/PACT52795.2021.00009},
   doi          = {10.1109/PACT52795.2021.00009},
+  abstract = {The problem of finding good mappings is central to designing and executing applications efficiently in embedded systems. In heterogeneous multicores, which are ubiquitous today, this problem yields an intractably large design space of possible mappings. Most methods explore this space using heuristics, many of which implicitly use geometric notions in mappings. In this paper we explore the geometry of the mapping problem explicitly, for finding embeddings of the mapping space that capture its structure. This allows us to formulate new mapping strategies by leveraging the geometry of the mapping space, as well as improving existing heuristics that do so implicitly. We evaluate our approach on a novel mapping heuristic based on gradient descent, as well as multiple existing meta-heuristics. For complex architectures, our methods improved the results of established exploration meta-heuristics by about an order of magnitude in average.},
   timestamp    = {Mon, 06 Nov 2023 15:27:23 +0100},
 }
 
