@@ -23,13 +23,13 @@
       "slug": "tobias-grosser"
     }
   ],
-  "abstract": "There is an increasing need for domain-specific reasoning in modern compilers. This has fueled the use of tailored intermediate representations (IRs) based on static single assignment (SSA), like in the MLIR compiler framework. Interactive theorem provers (ITPs) provide strong guarantees for the end-to-end verification of compilers (e.g., CompCert). However, modern compilers and their IRs evolve at a rate that makes proof engineering alongside them prohibitively expensive.  Nevertheless, well-scoped push-button automated verification tools such as the Alive peephole verifier for LLVM-IR gained recognition in domains where SMT solvers offer efficient (semi) decision procedures. In this paper, we aim to combine the convenience of automation with the versatility of ITPs for verifying peephole rewrites across domain-specific IRs. We formalize a core calculus for SSA-based IRs that is generic over the IR and covers so-called regions (nested scoping used by many domain-specific IRs in the MLIR ecosystem). Our mechanization in the Lean proof assistant provides a user-friendly frontend for translating MLIR syntax into our calculus. We provide scaffolding for defining and verifying peephole rewrites, offering tactics to eliminate the abstraction overhead of our SSA calculus. We prove correctness theorems about peephole rewriting, as well as two classical program transformations. To evaluate our framework, we consider three use cases from the MLIR ecosystem that cover different levels of abstractions: (1) bitvector rewrites from LLVM, (2) structured control flow, and (3) fully homomorphic encryption. We envision that our mechanization provides a foundation for formally verified rewrites on new domain-specific IRs.",
+  "abstract": "",
   "doi": "10.4230/LIPICS.ITP.2024.9",
   "url": "https://doi.org/10.4230/LIPIcs.ITP.2024.9",
   "year": 2024,
   "venue": "ITP'24",
   "type": "inproceedings",
-  "pdf" : "/public/publications/itp24.pdf",
-  "video" : "https://www.youtube.com/watch?v=4lh2NnLOxvQ",
+  "pdf": "/public/publications/itp24.pdf",
+  "video": "https://www.youtube.com/watch?v=4lh2NnLOxvQ",
   "bibtex": "@inproceedings{bhat_itp24,\n  author       = {Siddharth Bhat and\n                  Alex C. Keizer and\n                  Chris Hughes and\n                  Andr{\\'{e}}s Goens and\n                  Tobias Grosser},\n  editor       = {Yves Bertot and\n                  Temur Kutsia and\n                  Michael Norrish},\n  title        = {Verifying Peephole Rewriting in {SSA} Compiler IRs},\n  booktitle    = {15th International Conference on Interactive Theorem Proving, {ITP}\n                  2024, Tbilisi, Georgia, September 9-14, 2024},\n  series       = {LIPIcs},\n  volume       = {309},\n  pages        = {9:1--9:20},\n  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\\\"{u}}r Informatik},\n  year         = {2024},\n  url          = {https://doi.org/10.4230/LIPIcs.ITP.2024.9},\n  doi          = {10.4230/LIPICS.ITP.2024.9},\n  timestamp    = {Fri, 21 Nov 2025 23:44:11 +0100},\n}"
 }

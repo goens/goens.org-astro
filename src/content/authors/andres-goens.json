@@ -2,6 +2,7 @@
   "slug": "andres-goens",
   "name": "Andrés Goens",
   "papers": [
+    "zhang_pldi26",
     "rossel_popl26",
     "srivastava_cal25",
     "schneider_pldi25",
@@ -14,9 +15,10 @@
     "rossel_egraphs24",
     "goens_pldi23",
     "rossel_vstte23",
+    "castrillon_hca23",
     "goens_tcad22",
     "goens_phdthesis21",
-    "khasanov_tecs21",
+    "khasanov_cases21",
     "brauckmann_pact21",
     "menard_rapido21",
     "goens_samos21",
@@ -34,6 +36,7 @@
     "ertel_cc18",
     "khasanov_parma18",
     "goens_mcsoc18",
+    "goens_multiprog18",
     "goens_taco17",
     "goens_scopes17",
     "hempel_scopes17",
@@ -44,7 +47,7 @@
     "odendahl_ipdps15",
     "odendahl_date14"
   ],
-  "bio": "Andrés Goens is Assistant Professor (W2-TT) at TU Darmstadt. Before that, he was an Assistant Professor (UD) at the <a href=\"https://www.uva.nl/\">University of Amsterdam</a>. Before that, he was a Research Associate at the University of Edinburgh and at the Barkhausen Institut. He received a Ph.D. (Dr.rer.nat.) degree (Hons.) in computer science from TU Dresden, Dresden, Germany, and an M.Sc. degree in mathematics in from RWTH Aachen University, Aachen, Germany.",
-  "picture" : "../../assets/images/authors/andres-goens.jpg",
-  "team" : "lead"
+  "bio": "Andrés Goens is Assistant Professor (W2-TT) at <a href=\"https://www.tu-darmstadt.de\">TU Darmstadt</a>. Before that, he was an Assistant Professor (UD) at the <a href=\"https://www.uva.nl/\">University of Amsterdam</a>. Before that, he was a Research Associate at the <a href=\"https://ed.ac.uk/\">University of Edinburgh</a> and at the <a href=\"https://www.barkhauseninstitut.org/\">Barkhausen Institut</a>. He received a Ph.D. (Dr.rer.nat.) degree (Hons.) in computer science from <a href=\"https://www.tu-dresden.de\">TU Dresden<a/> in Germany, and an M.Sc. degree in mathematics in from <a href=\"https://www.rwth-aachen.de\">RWTH Aachen University</a>, also in Germany.",
+  "picture": "../../assets/images/authors/andres-goens.jpg",
+  "team": "lead"
 }

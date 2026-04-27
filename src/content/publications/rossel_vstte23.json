@@ -29,6 +29,6 @@
   "year": 2023,
   "venue": "VSTTE'23",
   "type": "inproceedings",
-  "pdf" : "/public/publications/vstte23.pdf",
+  "pdf": "/public/publications/vstte23.pdf",
   "bibtex": "@inproceedings{rossel_vstte23,\n  author       = {Marcus Rossel and\n                  Shaokai Lin and\n                  Marten Lohstroh and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n and\n                  Andr{\\'{e}}s Goens},\n  editor       = {Andrew Reynolds and\n                  Serdar Tasiran},\n  title        = {Provable Determinism for Software in Cyber-Physical Systems},\n  booktitle    = {Verified Software. Theories, Tools and Experiments - 15th International\n                  Conference, {VSTTE} 2023, Ames, IA, USA, October 23-24, 2023, Revised\n                  Selected Papers},\n  series       = {Lecture Notes in Computer Science},\n  volume       = {14095},\n  pages        = {85--107},\n  publisher    = {Springer},\n  year         = {2023},\n  url          = {https://doi.org/10.1007/978-3-031-66064-1\\_6},\n  doi          = {10.1007/978-3-031-66064-1\\_6},\n  timestamp    = {Sun, 06 Oct 2024 01:00:00 +0200},\n}"
 }

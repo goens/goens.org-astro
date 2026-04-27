@@ -17,5 +17,6 @@
   "year": 2021,
   "venue": "SAMOS'21",
   "type": "inproceedings",
+  "pdf": "/public/publications/samos21.pdf",
   "bibtex": "@inproceedings{goens_samos21,\n  author       = {Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Alex Orailoglu and\n                  Matthias Jung and\n                  Marc Reichenbach},\n  title        = {Embeddings of Task Mappings to Multicore Systems},\n  booktitle    = {Embedded Computer Systems: Architectures, Modeling, and Simulation\n                  - 21st International Conference, {SAMOS} 2021, Virtual Event, July\n                  4-8, 2021, Proceedings},\n  series       = {Lecture Notes in Computer Science},\n  volume       = {13227},\n  pages        = {161--176},\n  publisher    = {Springer},\n  year         = {2021},\n  url          = {https://doi.org/10.1007/978-3-031-04580-6\\_11},\n  doi          = {10.1007/978-3-031-04580-6\\_11},\n  timestamp    = {Fri, 29 Apr 2022 14:50:40 +0200},\n}"
 }

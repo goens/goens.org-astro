@@ -33,5 +33,6 @@
   "year": 2020,
   "venue": "ICT'20",
   "type": "inproceedings",
+  "pdf": "/public/publications/ict20.pdf",
   "bibtex": "@inproceedings{wittig_ict20,\n  author       = {Robert Wittig and\n                  Andr{\\'{e}}s Goens and\n                  Christian Menard and\n                  Emil Mat{\\'{u}}s and\n                  Gerhard P. Fettweis and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Modem Design in the Era of 5G and Beyond: The Need for a Formal Approach},\n  booktitle    = {27th International Conference on Telecommunications, {ICT} 2020, Bali,\n                  Indonesia, October 5-7, 2020},\n  pages        = {1--5},\n  publisher    = {{IEEE}},\n  year         = {2020},\n  url          = {https://doi.org/10.1109/ICT49546.2020.9239539},\n  doi          = {10.1109/ICT49546.2020.9239539},\n  timestamp    = {Thu, 12 Nov 2020 09:29:19 +0100},\n}"
 }

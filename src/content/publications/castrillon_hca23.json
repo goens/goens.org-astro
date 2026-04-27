@@ -1,0 +1,30 @@
+{
+  "key": "castrillon_hca23",
+  "title": "Dataflow Models of Computation for Programming Heterogeneous Multicores",
+  "authors": [
+    {
+      "name": "Jeronimo Castrillon",
+      "slug": "jeronimo-castrillon"
+    },
+    {
+      "name": "Karol Desnos",
+      "slug": "karol-desnos"
+    },
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Christian Menard",
+      "slug": "christian-menard"
+    }
+  ],
+  "pdf": "/public/publications/hca23.pdf",
+  "abstract": "The hardware complexity of modern integrated circuits keeps increasing at a steady pace. Heterogeneous Multi-Processor Systems-on-Chips (MPSoCs) integrate general-purpose processing elements, domain-specific processors, dedicated hardware accelerators, reconfigurable logic, as well as complex memory hierarchies and interconnect. While offering unprecedented computational power and energy efficiency, MPSoCs are notoriously difficult to program. This chapter presents Models of Computation (MoCs) as an appealing alternative to traditional programming methodologies to harness the full capacities of modern MPSoCs. By raising the level of abstraction, MoCs make it possible to specify complex systems with little knowledge of the target architecture. The properties of MoCs make it possible for tools to automatically generate efficient implementations for heterogeneous MPSoCs, relieving developers from time-consuming manual exploration. This chapter focuses on a specific MoC family called dataflow MoCs. Dataflow MoCs represent systems as graphs of computational entities and communication channels. This graph-based system specification enables intuitive description of parallelism and supports many analysis and optimization techniques for deriving safe and highly efficient implementations on MPSoCs.",
+  "doi": "10.1007/978-981-15-6401-7_45-2",
+  "url": "https://doi.org/10.1007/978-981-15-6401-7_45-2",
+  "year": 2023,
+  "venue": "HCA'23",
+  "type": "inbook",
+  "bibtex": "@InBook{castrillon_hca23,\nauthor = {Jeronimo Castrillon and Karol Desnos and Andrés Goens and Christian Menard},\nbooktitle = {Handbook of Computer Architecture},\ndate = {2023-01},\npages = {1--40},\ntitle = {Dataflow Models of Computation for Programming Heterogeneous Multicores},\ndoi = {10.1007/978-981-15-6401-7_45-2},\nisbn = {978-981-15-6401-7},\nurl = {https://doi.org/10.1007/978-981-15-6401-7_45-2},\neditor = {Anupam Chattopadhyay et al.},\npublisher = {Springer Nature Singapore},\naddress = {Singapore},\nabstract = {The hardware complexity of modern integrated circuits keeps increasing at a steady pace. Heterogeneous Multi-Processor Systems-on-Chips (MPSoCs) integrate general-purpose processing elements, domain-specific processors, dedicated hardware accelerators, reconfigurable logic, as well as complex memory hierarchies and interconnect. While offering unprecedented computational power and energy efficiency, MPSoCs are notoriously difficult to program. This chapter presents Models of Computation (MoCs) as an appealing alternative to traditional programming methodologies to harness the full capacities of modern MPSoCs. By raising the level of abstraction, MoCs make it possible to specify complex systems with little knowledge of the target architecture. The properties of MoCs make it possible for tools to automatically generate efficient implementations for heterogeneous MPSoCs, relieving developers from time-consuming manual exploration. This chapter focuses on a specific MoC family called dataflow MoCs. Dataflow MoCs represent systems as graphs of computational entities and communication channels. This graph-based system specification enables intuitive description of parallelism and supports many analysis and optimization techniques for deriving safe and highly efficient implementations on MPSoCs.},\nmonth = jan,\nyear = {2023},\n}"
+}

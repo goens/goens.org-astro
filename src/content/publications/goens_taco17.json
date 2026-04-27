@@ -21,5 +21,6 @@
   "year": 2017,
   "venue": "TACO'17",
   "type": "article",
+  "pdf": "/public/publications/taco17.pdf",
   "bibtex": "@article{goens_taco17,\n  author       = {Andr{\\'{e}}s Goens and\n                  Sergio Siccha and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Symmetry in Software Synthesis},\n  journal      = {{ACM} Trans. Archit. Code Optim.},\n  volume       = {14},\n  number       = {2},\n  pages        = {20:1--20:26},\n  year         = {2017},\n  url          = {https://doi.org/10.1145/3095747},\n  doi          = {10.1145/3095747},\n  timestamp    = {Wed, 17 Feb 2021 00:00:00 +0100},\n}"
 }

@@ -1,0 +1,8 @@
+{
+  "slug": "tianrui-zheng",
+  "name": "Tianrui Zheng",
+  "papers": [],
+  "bio": "Tianrui received a Bachelor’s degree in Electronic Information Engineering from Shandong University and a Diplom-Ingenieur (Dipl.-Ing.) in Information Systems Engineering from TU Dresden. He joined the team in December 2025 as an external PhD student (Huawei). His current research focuses on developing compilers and programming models to accelerate AI workloads on heterogeneous hardware platforms, including GPUs, NPUs, and PIM systems.",
+  "picture" : "../../assets/images/authors/tianrui-zheng.jpeg",
+  "team" : "phd"
+}

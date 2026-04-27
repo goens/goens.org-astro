@@ -25,5 +25,6 @@
   "year": 2018,
   "venue": "CC'18",
   "type": "inproceedings",
+  "pdf": "/public/publications/cc18.pdf",
   "bibtex": "@inproceedings{ertel_cc18,\n  author       = {Sebastian Ertel and\n                  Andr{\\'{e}}s Goens and\n                  Justus Adam and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Christophe Dubach and\n                  Jingling Xue},\n  title        = {Compiling for concise code and efficient {I/O}},\n  booktitle    = {Proceedings of the 27th International Conference on Compiler Construction,\n                  {CC} 2018, February 24-25, 2018, Vienna, Austria},\n  pages        = {104--115},\n  publisher    = {{ACM}},\n  year         = {2018},\n  url          = {https://doi.org/10.1145/3178372.3179505},\n  doi          = {10.1145/3178372.3179505},\n  timestamp    = {Sun, 19 Jan 2025 00:00:00 +0100},\n}"
 }

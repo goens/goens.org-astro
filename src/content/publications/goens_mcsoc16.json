@@ -29,5 +29,6 @@
   "year": 2016,
   "venue": "MCSOC'16",
   "type": "inproceedings",
+  "pdf": "/public/publications/mcsoc16.pdf",
   "bibtex": "@inproceedings{goens_mcsoc16,\n  author       = {Andr{\\'{e}}s Goens and\n                  Robert Khasanov and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n and\n                  Simon Polstra and\n                  Andy D. Pimentel},\n  title        = {Why Comparing System-Level MPSoC Mapping Approaches is Difficult:\n                  {A} Case Study},\n  booktitle    = {10th {IEEE} International Symposium on Embedded Multicore/Many-core\n                  Systems-on-Chip, {MCSOC} 2016, Lyon, France, September 21-23, 2016},\n  pages        = {281--288},\n  publisher    = {{IEEE} Computer Society},\n  year         = {2016},\n  url          = {https://doi.org/10.1109/MCSoC.2016.48},\n  doi          = {10.1109/MCSOC.2016.48},\n  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},\n}"
 }

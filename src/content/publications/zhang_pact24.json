@@ -33,6 +33,6 @@
   "year": 2024,
   "venue": "PACT'24",
   "type": "inproceedings",
-  "pdf" : "/public/publications/PACT24.pdf",
+  "pdf": "/public/publications/PACT24.pdf",
   "bibtex": "@inproceedings{zhang_pact24,\n  author       = {An Qi Zhang and\n                  Andr{\\'{e}}s Goens and\n                  Nicolai Oswald and\n                  Tobias Grosser and\n                  Daniel J. Sorin and\n                  Vijay Nagarajan},\n  title        = {PipeGen: Automated Transformation of a Single-Core Pipeline into a\n                  Multicore Pipeline for a Given Memory Consistency Model},\n  booktitle    = {Proceedings of the 2024 International Conference on Parallel Architectures\n                  and Compilation Techniques, {PACT} 2024, Long Beach, CA, USA, October\n                  14-16, 2024},\n  pages        = {1--13},\n  publisher    = {{ACM}},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3656019.3676889},\n  doi          = {10.1145/3656019.3676889},\n  timestamp    = {Sun, 19 Jan 2025 00:00:00 +0100},\n}"
 }

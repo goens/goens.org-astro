@@ -37,5 +37,6 @@
   "year": 2019,
   "venue": "CYPHY'19",
   "type": "inproceedings",
+  "pdf": "/public/publications/cyphy19.pdf",
   "bibtex": "@inproceedings{lohstroh_cyphy19,\n  author       = {Marten Lohstroh and\n                  {\\'{I}}{\\~{n}}igo {\\'{I}}ncer Romeo and\n                  Andr{\\'{e}}s Goens and\n                  Patricia Derler and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n and\n                  Edward A. Lee and\n                  Alberto L. Sangiovanni{-}Vincentelli},\n  editor       = {Roger D. Chamberlain and\n                  Martin Edin Grimheden and\n                  Walid Taha},\n  title        = {Reactors: {A} Deterministic Model for Composable Reactive Systems},\n  booktitle    = {Cyber Physical Systems. Model-Based Design - 9th International Workshop,\n                  CyPhy 2019, and 15th International Workshop, {WESE} 2019, New York\n                  City, NY, USA, October 17-18, 2019, Revised Selected Papers},\n  series       = {Lecture Notes in Computer Science},\n  volume       = {11971},\n  pages        = {59--85},\n  publisher    = {Springer},\n  year         = {2019},\n  url          = {https://doi.org/10.1007/978-3-030-41131-2\\_4},\n  doi          = {10.1007/978-3-030-41131-2\\_4},\n  timestamp    = {Sun, 04 Aug 2024 01:00:00 +0200},\n}"
 }

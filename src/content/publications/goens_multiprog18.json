@@ -1,0 +1,30 @@
+{
+  "key": "goens_multiprog18",
+  "title": "Level Graphs: Generating Benchmarks for Concurrency Optimizations in Compilers",
+  "authors": [
+    {
+      "name": "Andrés Goens",
+      "slug": "andres-goens"
+    },
+    {
+      "name": "Sebastian Ertel",
+      "slug": "sebastian-ertel"
+    },
+    {
+      "name": "Justus Adam",
+      "slug": "justus-adam"
+    },
+    {
+      "name": "Jeronimo Castrillon",
+      "slug": "jeronimo-castrillon"
+    }
+  ],
+  "abstract": "",
+  "doi": "",
+  "url": "http://research.ac.upc.edu/multiprog/multiprog2018/papers/MULTIPROG-2018_Goens.pdf",
+  "year": 2018,
+  "venue": "MULTIPROG'18",
+  "type": "inproceedings",
+  "pdf": "/public/publications/multiprog18.pdf",
+  "bibtex": "@InProceedings{goens_multiprog18,\nauthor = {Andr{\\'e}s Goens and Sebastian Ertel and Justus Adam and Jeronimo Castrillon},\ntitle = {Level Graphs: Generating Benchmarks for Concurrency Optimizations in Compilers},\nbooktitle = {Proceedings of the 11th International Workshop on Programmability and Architectures for Heterogeneous Multicores (MULTIPROG'2018), co-located with 13th International Conference on High-Performance and Embedded Architectures and Compilers (HiPEAC)},\nyear = {2018},\nurl = {http://research.ac.upc.edu/multiprog/multiprog2018/papers/MULTIPROG-2018_Goens.pdf},\nmonth = jan,\nlocation = {Manchester, United Kingdom}\n}"
+}
