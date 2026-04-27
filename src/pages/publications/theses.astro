@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import PubLinks from "../../components/PubLinks.astro";
 
-const RESEARCH_TYPES = new Set(["article", "inproceedings", "phdthesis"]);
+const RESEARCH_TYPES = new Set(["article", "inproceedings", "phdthesis", "inbook"]);
 
 const all = await getCollection("publications");
 const theses = all
