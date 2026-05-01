@@ -26,6 +26,6 @@
   "venue": "DATE'20",
   "type": "inproceedings",
   "video": "https://www.youtube.com/watch?v=DkUjmbUU1zc",
-  "pdf": "/public/publications/date20a.pdf",
+  "pdf": "/publications/date20a.pdf",
   "bibtex": "@inproceedings{menard_date20,\n  author       = {Christian Menard and\n                  Andr{\\'{e}}s Goens and\n                  Marten Lohstroh and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Achieving Determinism in Adaptive {AUTOSAR}},\n  booktitle    = {2020 Design, Automation {\\&} Test in Europe Conference {\\&} Exhibition,\n                  {DATE} 2020, Grenoble, France, March 9-13, 2020},\n  pages        = {822--827},\n  publisher    = {{IEEE}},\n  year         = {2020},\n  url          = {https://doi.org/10.23919/DATE48585.2020.9116430},\n  doi          = {10.23919/DATE48585.2020.9116430},\n  timestamp    = {Mon, 30 Sep 2024 15:20:52 +0200},\n}"
 }

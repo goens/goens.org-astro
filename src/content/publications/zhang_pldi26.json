@@ -25,6 +25,6 @@
   "year": 2026,
   "venue": "PLDI'26",
   "type": "article",
-  "pdf": "/public/publications/pldi26.pdf",
+  "pdf": "/publications/pldi26.pdf",
   "bibtex": "@article{zhang_pldi26,\n  author       = {An Qi Zhang and\n                  Andr{\\'{e}}s Goens and\n                  Daniel J. Sorin and\n                  Vijay Nagarajan},\n  title        = {A Formally Verified Foundation for Compositional Heterogeneous Coherence},\n  journal      = {Proc. {ACM} Program. Lang.},\n  number       = {{PLDI}},\n  year         = {2026},\n}"
 }

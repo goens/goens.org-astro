@@ -44,7 +44,7 @@ export const site: SiteConfig = {
       github: "https://github.com/goens/",
       linkedin: "https://www.linkedin.com/in/andres-goens/",
       scholar: "https://scholar.google.com/citations?user=vjVhbJoAAAAJ",
-      dblp: "https://www.linkedin.com/in/andres-goens/"
+      dblp: "https://dblp.org/pid/144/4631.html"
     }
   },
   nav: [

@@ -29,6 +29,6 @@
   "year": 2019,
   "venue": "HASKELL'19",
   "type": "inproceedings",
-  "pdf": "/public/publications/haskell19.pdf",
+  "pdf": "/publications/haskell19.pdf",
   "bibtex": "@inproceedings{ertel_haskell19,\n  author       = {Sebastian Ertel and\n                  Justus Adam and\n                  Norman A. Rink and\n                  Andr{\\'{e}}s Goens and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Richard A. Eisenberg},\n  title        = {STCLang: state thread composition as a foundation for monadic dataflow\n                  parallelism},\n  booktitle    = {Proceedings of the 12th {ACM} {SIGPLAN} International Symposium on\n                  Haskell, Haskell@ICFP 2019, Berlin, Germany, August 18-23, 2019},\n  pages        = {146--161},\n  publisher    = {{ACM}},\n  year         = {2019},\n  url          = {https://doi.org/10.1145/3331545.3342600},\n  doi          = {10.1145/3331545.3342600},\n  timestamp    = {Sun, 19 Jan 2025 00:00:00 +0100},\n}"
 }

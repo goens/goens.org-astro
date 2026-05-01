@@ -26,6 +26,6 @@
   "venue": "DATE'20",
   "type": "inproceedings",
   "video": "https://www.youtube.com/watch?v=fHhDdGiHBOg",
-  "pdf": "/public/publications/date20b.pdf",
+  "pdf": "/publications/date20b.pdf",
   "bibtex": "@inproceedings{khan_date20,\n  author       = {Asif Ali Khan and\n                  Andr{\\'{e}}s Goens and\n                  Fazal Hameed and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Generalized Data Placement Strategies for Racetrack Memories},\n  booktitle    = {2020 Design, Automation {\\&} Test in Europe Conference {\\&} Exhibition,\n                  {DATE} 2020, Grenoble, France, March 9-13, 2020},\n  pages        = {1502--1507},\n  publisher    = {{IEEE}},\n  year         = {2020},\n  url          = {https://doi.org/10.23919/DATE48585.2020.9116245},\n  doi          = {10.23919/DATE48585.2020.9116245},\n  timestamp    = {Mon, 05 Feb 2024 00:00:00 +0100},\n}"
 }

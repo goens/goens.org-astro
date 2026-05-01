@@ -33,7 +33,7 @@
   "year": 2023,
   "venue": "PLDI'23",
   "type": "article",
-  "pdf": "/public/publications/pldi23.pdf",
+  "pdf": "/publications/pldi23.pdf",
   "video": "https://www.youtube.com/watch?v=vhy2EIzE3-0",
   "bibtex": "@article{goens_pldi23,\n  author       = {Andr{\\'{e}}s Goens and\n                  Soham Chakraborty and\n                  Susmit Sarkar and\n                  Sukarn Agarwal and\n                  Nicolai Oswald and\n                  Vijay Nagarajan},\n  title        = {Compound Memory Models},\n  journal      = {Proc. {ACM} Program. Lang.},\n  volume       = {7},\n  number       = {{PLDI}},\n  pages        = {1145--1168},\n  year         = {2023},\n  url          = {https://doi.org/10.1145/3591267},\n  doi          = {10.1145/3591267},\n  timestamp    = {Sun, 19 Jan 2025 00:00:00 +0100},\n}"
 }

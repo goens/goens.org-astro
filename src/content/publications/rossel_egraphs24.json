@@ -17,6 +17,6 @@
   "year": 2024,
   "venue": "EGRAPHS'24",
   "type": "inproceedings",
-  "pdf": "/public/publications/egraphs24.pdf",
+  "pdf": "/publications/egraphs24.pdf",
   "bibtex": "@inproceedings{rossel_egraphs24,\n  author       = {Marcus Rossel and\n                  Andr{\\'{e}}s Goens},\n  title        = {Bridging Syntax and Semantics of Lean Expressions in E-Graphs},\n  booktitle    = {Proceedings of the 3rd Workshop on E-Graphs and Equality Saturation (EGRAPHS 2024)},\n  year         = {2024},\n  url          = {https://doi.org/10.48550/arXiv.2405.10188},\n  doi          = {10.48550/ARXIV.2405.10188},\n  note         = {arXiv preprint arXiv:2405.10188},\n  eprinttype   = {arXiv},\n  eprint       = {2405.10188},\n}"
 }

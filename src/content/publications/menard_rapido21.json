@@ -37,7 +37,7 @@
   "year": 2021,
   "venue": "RAPIDO'21",
   "video": "https://www.youtube.com/watch?v=JOrdIn_kWBs&t=8981s",
-  "pdf": "/public/publications/rapido21.pdf",
+  "pdf": "/publications/rapido21.pdf",
   "type": "inproceedings",
   "bibtex": "@inproceedings{menard_rapido21,\n  author       = {Christian Menard and\n                  Andr{\\'{e}}s Goens and\n                  Gerald Hempel and\n                  Robert Khasanov and\n                  Julian Robledo and\n                  Felix Teweleitt and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {Mocasin - Rapid Prototyping of Rapid Prototyping Tools: {A} Framework\n                  for Exploring New Approaches in Mapping Software to Heterogeneous\n                  Multi-cores},\n  booktitle    = {DroneSE and {RAPIDO} '21: Methods and Tools, Budapest, Hungary, January\n                  18, 2021},\n  pages        = {66--73},\n  publisher    = {{ACM}},\n  year         = {2021},\n  url          = {https://doi.org/10.1145/3444950.3447285},\n  doi          = {10.1145/3444950.3447285},\n  timestamp    = {Thu, 01 May 2025 01:00:00 +0200},\n}"
 }

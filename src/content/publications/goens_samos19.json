@@ -21,6 +21,6 @@
   "year": 2019,
   "venue": "SAMOS'19",
   "type": "inproceedings",
-  "pdf": "/public/publications/samos19.pdf",
+  "pdf": "/publications/samos19.pdf",
   "bibtex": "@inproceedings{goens_samos19,\n  author       = {Andr{\\'{e}}s Goens and\n                  Christian Menard and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Dionisios N. Pnevmatikatos and\n                  Maxime Pelcat and\n                  Matthias Jung},\n  title        = {On Compact Mappings for Multicore Systems},\n  booktitle    = {Embedded Computer Systems: Architectures, Modeling, and Simulation\n                  - 19th International Conference, {SAMOS} 2019, Samos, Greece, July\n                  7-11, 2019, Proceedings},\n  series       = {Lecture Notes in Computer Science},\n  volume       = {11733},\n  pages        = {325--335},\n  publisher    = {Springer},\n  year         = {2019},\n  url          = {https://doi.org/10.1007/978-3-030-27562-4\\_23},\n  doi          = {10.1007/978-3-030-27562-4\\_23},\n  timestamp    = {Wed, 21 Aug 2019 01:00:00 +0200},\n}"
 }

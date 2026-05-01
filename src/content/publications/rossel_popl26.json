@@ -30,6 +30,6 @@
   "type": "article",
   "abstract": "",
   "video": "https://www.youtube.com/watch?v=jM3Km86mUMM&t=144s",
-  "pdf": "/public/publications/popl26.pdf",
+  "pdf": "/publications/popl26.pdf",
   "bibtex": "@article{rossel_popl26,\n  author       = {Marcus Rossel and\n                  Rudi Schneider and\n                  Thomas Koehler and\n                  Michel Steuwer and\n                  Andr{\\'{e}}s Goens},\n  title        = {Towards Pen-and-Paper-Style Equational Reasoning in Interactive Theorem\n                  Provers by Equality Saturation},\n  journal      = {Proc. {ACM} Program. Lang.},\n  volume       = {10},\n  number       = {{POPL}},\n  pages        = {718--747},\n  year         = {2026},\n  url          = {https://doi.org/10.1145/3776667},\n  doi          = {10.1145/3776667},\n  timestamp    = {Sun, 01 Feb 2026 00:00:00 +0100},\n}"
 }

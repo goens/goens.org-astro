@@ -21,6 +21,6 @@
   "year": 2022,
   "venue": "TCAD'22",
   "type": "article",
-  "pdf": "/public/publications/tcad21.pdf",
+  "pdf": "/publications/tcad21.pdf",
   "bibtex": "@article{goens_tcad22,\n  author       = {Andr{\\'{e}}s Goens and\n                  Timo Nicolai and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {mpsym: Improving Design-Space Exploration of Clustered Manycores With\n                  Arbitrary Topologies},\n  journal      = {{IEEE} Trans. Comput. Aided Des. Integr. Circuits Syst.},\n  volume       = {41},\n  number       = {6},\n  pages        = {1592--1605},\n  year         = {2022},\n  url          = {https://doi.org/10.1109/TCAD.2021.3102512},\n  doi          = {10.1109/TCAD.2021.3102512},\n  timestamp    = {Mon, 28 Aug 2023 01:00:00 +0200},\n}"
 }

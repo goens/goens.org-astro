@@ -33,6 +33,6 @@
   "year": 2019,
   "venue": "MAPL'19",
   "type": "inproceedings",
-  "pdf": "/public/publications/mapl19.pdf",
+  "pdf": "/publications/mapl19.pdf",
   "bibtex": "@inproceedings{goens_mapl19,\n  author       = {Andr{\\'{e}}s Goens and\n                  Alexander Brauckmann and\n                  Sebastian Ertel and\n                  Chris Cummins and\n                  Hugh Leather and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  editor       = {Tim Mattson and\n                  Abdullah Muzahid and\n                  Armando Solar{-}Lezama},\n  title        = {A case study on machine learning for synthesizing benchmarks},\n  booktitle    = {Proceedings of the 3rd {ACM} {SIGPLAN} International Workshop on Machine\n                  Learning and Programming Languages, MAPL@PLDI 2019, Phoenix, AZ, USA,\n                  June 22, 2019},\n  pages        = {38--46},\n  publisher    = {{ACM}},\n  year         = {2019},\n  url          = {https://doi.org/10.1145/3315508.3329976},\n  doi          = {10.1145/3315508.3329976},\n  timestamp    = {Thu, 14 Oct 2021 09:58:35 +0200},\n}"
 }

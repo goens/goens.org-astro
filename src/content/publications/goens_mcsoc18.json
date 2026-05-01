@@ -21,6 +21,6 @@
   "year": 2018,
   "venue": "MCSOC'18",
   "type": "inproceedings",
-  "pdf": "/public/publications/mcsoc18.pdf",
+  "pdf": "/publications/mcsoc18.pdf",
   "bibtex": "@inproceedings{goens_mcsoc18,\n  author       = {Andr{\\'{e}}s Goens and\n                  Christian Menard and\n                  Jer{\\'{o}}nimo Castrill{\\'{o}}n},\n  title        = {On the Representation of Mappings to Multicores},\n  booktitle    = {12th {IEEE} International Symposium on Embedded Multicore/Many-core\n                  Systems-on-Chip, MCSoC 2018, Hanoi, Vietnam, September 12-14, 2018},\n  pages        = {184--191},\n  publisher    = {{IEEE} Computer Society},\n  year         = {2018},\n  url          = {https://doi.org/10.1109/MCSoC2018.2018.00039},\n  doi          = {10.1109/MCSOC2018.2018.00039},\n  timestamp    = {Thu, 23 Mar 2023 00:00:00 +0100},\n}"
 }

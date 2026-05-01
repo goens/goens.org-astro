@@ -64,7 +64,7 @@ const jsonLd = {
     <ol class="preview-list">
       {recentPubs.map((pub) => (
         <li class="preview-item">
-          <span class="preview-meta">{pub.venue} {pub.year}</span>
+          <span class="preview-meta">{pub.venue} </span>
           <a class="preview-title" href={`/publications/${pub.key}`}>{pub.title}</a>
           <PubLinks pub={pub} />
         </li>
