@@ -20,8 +20,9 @@
     }
   ],
   "abstract": "",
-  "doi": "",
+  "doi": "https://dl.acm.org/doi/10.1145/3808350",
   "url": "",
+  "video": "https://www.youtube.com/live/oTbyLcKWpmg?si=P_40AJanbrcKdYKW&t=12427",
   "year": 2026,
   "venue": "PLDI'26",
   "type": "article",
