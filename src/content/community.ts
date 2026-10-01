@@ -24,6 +24,24 @@ export const committees: CommitteeEntry[] = [
   // Program Committees
   {
     category: "pc",
+    venue: "Object-oriented Programming, Systems, Languages, and Applications",
+    venueShort: "OOPSLA",
+    location: "(part of SPLASH)",
+    years: [
+      { year: "2027", links: [{ label: "Conference", url: "https://2027.splashcon.org/" }] },
+    ],
+  },
+  {
+    category: "pc",
+    venue: "Workshop on Programming Languages and Operating Systems ",
+    venueShort: "PLOS",
+    location: "at SOSP",
+    years: [
+      { year: "2026", links: [{ label: "Workshop", url: "https://www.plos-workshop.org/2026/organizers.php" }] },
+    ],
+  },
+{
+    category: "pc",
     venue: "International Conference on Embedded Software",
     venueShort: "EMSOFT",
     location: "at Embedded Systems Week",

@@ -2,7 +2,8 @@
   "slug": "andres-goens",
   "name": "Andrés Goens",
   "papers": [
-    "zhang_pldi26",
+    "sprokholt_asplos27",
+    "kapoor_asplos27",
     "rossel_popl26",
     "srivastava_cal25",
     "schneider_pldi25",

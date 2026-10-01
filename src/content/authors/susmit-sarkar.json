@@ -2,6 +2,8 @@
   "slug": "susmit-sarkar",
   "name": "Susmit Sarkar",
   "papers": [
+    "sprokholt_asplos27",
+    "kapoor_asplos27",
     "goens_pldi23"
   ]
 }

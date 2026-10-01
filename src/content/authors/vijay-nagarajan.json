@@ -2,7 +2,8 @@
   "slug": "vijay-nagarajan",
   "name": "Vijay Nagarajan",
   "papers": [
-    "zhang_pldi26",
+    "sprokholt_asplos27",
+    "kapoor_asplos27",
     "srivastava_cal25",
     "zhang_pact24",
     "li_isca24",
