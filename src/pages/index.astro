@@ -7,13 +7,13 @@ import PubLinks from "../components/PubLinks.astro";
 const allNews = await getCollection("news");
 const recentNews = allNews
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+  .slice(0, 4);
 
 const allPubs = await getCollection("publications");
 const recentPubs = allPubs
   .map((p) => p.data)
   .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title))
-  .slice(0, 3);
+  .slice(0, 4);
 
 function formatDate(date: Date) {
   return date.toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" });
