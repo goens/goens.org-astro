@@ -53,7 +53,7 @@ export const site: SiteConfig = {
     { label: "Team", href: "/team" },
     { label: "Publications", href: "/publications" },
     { label: "Community", href: "/community" },
-    { label: "Positions", href: "/positions" },
+    { label: "Open Positions", href: "/positions" },
     { label: "Contact", href: "/contact" },
   ],
   seo: {
