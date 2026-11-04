@@ -1,0 +1,33 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+
+const title = `Open Positions — ${site.name}`;
+---
+
+<Base
+  title={title}
+  description="Open positions and internships in the Programming Reliable Systems (PRS) Group at TU Darmstadt."
+  canonicalPath="/positions"
+  mainCentered
+>
+  <article class="prose">
+    <h1>Open Positions &amp; Internships</h1>
+
+    <p class="lead">
+      There are currently <strong>no open positions nor internships</strong>.
+    </p>
+
+    <p>
+      Any open positions, PhD openings, or internships will be advertised on
+      this page, or on the <a href="https://www.career.tu-darmstadt.de/tu-darmstadt/jobs">official TU Darmstadt jobs page.</a>
+      If nothing is listed here or there, there are no vacancies at this time.
+    </p>
+
+    <p>
+    Please <strong>do not email us</strong> with requests for PhD positions or internships that are not advertised.
+    If you want to inquire about an open position, please reference explicitly the job ad or number. 
+    Emails that do not do adhere to this will not receive a reply. Thank you for your understanding.
+    </p>
+  </article>
+</Base>
