@@ -33,6 +33,7 @@
   "year": 2027,
   "venue": "ASPLOS'27",
   "type": "article",
+  "pdf": "/publications/asplos27-armptx.pdf",
   "artifact" : "https://doi.org/10.5281/zenodo.22545540",
   "bibtex": "@article{sprokholt_asplos27,\n  author       = {Dennis Sprokholt and\n                  Reese Levine and\n                  Susmit Sarkar and\n                  Andr{\\'{e}}s Goens and\n                  Vijay Nagarajan and\n                  Soham Chakraborty},\n  title        = {Beyond the Fence: Sound Compilation for GPU and Heterogeneous CPU+GPU Systems},\n  booktitle    = {(to appear in) Proceedings of the 32nd {ACM} International Conference on Architectural\n                  Support for Programming Languages and Operating Systems, {ASPLOS} 2027, Heraklion, Crete, Greece, April 11-15, 2027},\n  publisher    = {{ACM}},\n  year         = {2027},\n}"
 }
