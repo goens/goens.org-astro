@@ -28,7 +28,15 @@ export const committees: CommitteeEntry[] = [
     venueShort: "OOPSLA",
     location: "(part of SPLASH)",
     years: [
-      { year: "2027", links: [{ label: "Conference", url: "https://2027.splashcon.org/" }] },
+      { year: "2027", links: [{ label: "Conference", url: "https://2027.splashcon.org/committee/splashoopsla2027-oopsla-review-committee" }] },
+    ],
+  },
+  {
+    category: "pc",
+    venue: " ACM SIGPLAN International Conference on Compiler Construction",
+    venueShort: "CC",
+    years: [
+      { year: "2026", links: [{ label: "Conference", url: "https://conf.researchr.org/committee/CC-2026/CC-2026-program-committee" }] },
     ],
   },
   {
